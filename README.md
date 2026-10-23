@@ -29,3 +29,16 @@ Git-репозиторий хранит опубликованную верси�
 ## Публикация
 
 Ветка `main` содержит актуальную опубликованную версию. Архив для загрузки в ChatGPT собирается из этой версии и не коммитится повторно как бинарный файл.
+
+## Установка плагина Codex из GitHub
+
+```powershell
+codex plugin marketplace add cansceer/stroybaza --ref main
+codex plugin add stroybaza-design@stroybaza
+```
+
+Для получения следующей опубликованной версии:
+
+```powershell
+codex plugin marketplace upgrade stroybaza
+```
