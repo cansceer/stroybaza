@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1240" viewBox="0 0 1700 1240">
+<defs>
+  <pattern id="smallGrid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#e6e8e7" stroke-width="1"/></pattern>
+  <pattern id="majorGrid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#d3d7d5" stroke-width="1.4"/></pattern>
+  <clipPath id="artboard"><rect x="0" y="0" width="1000" height="1000"/></clipPath>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#bf5143"/></marker>
+  <marker id="blueArrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#416d83"/></marker>
+  <style>
+    .title{font:700 28px 'Unbounded',Arial,sans-serif;fill:#222}
+    .sub{font:400 17px 'Montserrat',Arial,sans-serif;fill:#444}
+    .head{font:700 17px 'Unbounded',Arial,sans-serif;fill:#24332e}
+    .body{font:400 16px 'Montserrat',Arial,sans-serif;fill:#333}
+    .small{font:400 13px 'Montserrat',Arial,sans-serif;fill:#555}
+  </style>
+</defs>
+<rect width="1700" height="1240" fill="#f4f4f2"/>
+<text class="title" x="48" y="42">УПАКОВКА УТЕПЛИТЕЛЯ · КВАДРАТНЫЙ КАТАЛОЖНЫЙ КАДР</text>
+<text class="sub" x="48" y="67">Чертёж по утверждённому референсу · пропорции 1000 × 1000 px · прозрачный экспорт</text>
+<g transform="translate(210 100)">
+  <rect width="1000" height="1000" fill="#fff"/>
+  <rect width="1000" height="1000" fill="url(#smallGrid)"/>
+  <rect width="1000" height="1000" fill="url(#majorGrid)"/>
+  <g clip-path="url(#artboard)">
+    <!-- схема пакета: почти вертикальный формат, широкая передняя плоскость, видимая правая грань -->
+    <path d="M218 248 L275 178 L351 120 L690 105 L755 171 L783 221 L706 290 L706 1000 L281 1000 L281 290 Z" fill="#b7cbb7" stroke="#31503d" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M281 290 L706 290 L706 1000 L281 1000 Z" fill="#b8d0b9" stroke="#31503d" stroke-width="3"/>
+    <path d="M706 290 L783 221 L783 1000 L706 1000 Z" fill="#789c80" stroke="#31503d" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M218 248 L275 178 L351 120 L690 105 L755 171 L783 221 L706 290 L281 290 Z" fill="#dce5d7" stroke="#31503d" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M343 178 L389 135 L676 132 L735 183 L690 256 L390 247 Z" fill="#b59a72" stroke="#947d5c" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M218 248 L275 178 L351 120" fill="none" stroke="#31503d" stroke-width="4"/>
+    <path d="M280 290 L280 1000 M706 290 L706 1000" fill="none" stroke="#31503d" stroke-width="2"/>
+    <rect x="401" y="423" width="234" height="385" rx="6" fill="#edf1e9" fill-opacity=".64" stroke="#52705a" stroke-width="2"/>
+    <path d="M423 460H606 M423 490H580 M423 520H603 M423 550H570" stroke="#79917e" stroke-width="5" stroke-linecap="round"/>
+    <!-- контрольный габарит из финального файла -->
+    <rect x="218" y="105" width="566" height="895" fill="none" stroke="#416d83" stroke-width="3" stroke-dasharray="10 7"/>
+    <line x1="500.5" y1="0" x2="500.5" y2="1000" stroke="#416d83" stroke-width="2" stroke-dasharray="12 8" opacity=".8"/>
+    <line x1="0" y1="105" x2="1000" y2="105" stroke="#bf5143" stroke-width="3"/>
+    <line x1="0" y1="999" x2="1000" y2="999" stroke="#bf5143" stroke-width="4"/>
+  </g>
+  <rect width="1000" height="1000" fill="none" stroke="#202624" stroke-width="3"/>
+  <text x="16" y="28" class="small">ВЕРХ ХОЛСТА · y=0</text>
+  <text x="16" y="98" class="small" fill="#a23f34">первая видимая точка товара: y=105</text>
+  <text x="16" y="986" class="small" fill="#a23f34">нижняя граница кадра: y=1000</text>
+</g>
+
+<!-- размер верхнего отступа -->
+<line x1="185" y1="100" x2="185" y2="205" stroke="#bf5143" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<line x1="190" y1="100" x2="210" y2="100" stroke="#bf5143" stroke-width="2"/>
+<line x1="190" y1="205" x2="428" y2="205" stroke="#bf5143" stroke-width="2"/>
+<text x="25" y="148" class="head">105 px</text>
+<text x="25" y="172" class="small">постоянный верхний отступ</text>
+
+<!-- правая легенда -->
+<rect x="1240" y="100" width="420" height="210" rx="12" fill="#fff" stroke="#cfd3d1"/>
+<text x="1265" y="137" class="head">01 · РАКУРС</text>
+<text x="1265" y="171" class="body">Пакет стоит почти вертикально.</text>
+<text x="1265" y="198" class="body">Умеренный 3/4: широкая лицевая</text>
+<text x="1265" y="223" class="body">грань, правая боковина и небольшая</text>
+<text x="1265" y="248" class="body">верхняя плоскость видны вместе.</text>
+<text x="1265" y="281" class="small">Не делать вид сверху и не заваливать пачку.</text>
+
+<rect x="1240" y="330" width="420" height="220" rx="12" fill="#fff" stroke="#cfd3d1"/>
+<text x="1265" y="382" class="head">02 · МАСШТАБ И ЦЕНТР</text>
+<text x="1265" y="417" class="body">Видимый габарит референса:</text>
+<text x="1265" y="445" class="body">x = 218…783 · ширина 566 px.</text>
+<text x="1265" y="473" class="body">Центр габарита: x ≈ 500 px.</text>
+<text x="1265" y="501" class="body">Боковые поля — примерно по 217 px.</text>
+<text x="1265" y="519" class="small">Для близкой формы повторять масштаб;</text>
+<text x="1265" y="535" class="small">не растягивать упаковку под рамку.</text>
+
+<rect x="1240" y="570" width="420" height="185" rx="12" fill="#fff" stroke="#cfd3d1"/>
+<text x="1265" y="607" class="head">03 · УПАКОВКА</text>
+<text x="1265" y="642" class="body">Сохранять форму, швы и материал.</text>
+<text x="1265" y="670" class="body">Маркировка следует перспективе</text>
+<text x="1265" y="698" class="body">своей плоскости; брать её из фото</text>
+<text x="1265" y="726" class="body">товара, не перерисовывать.</text>
+
+<rect x="1240" y="790" width="420" height="290" rx="12" fill="#fff" stroke="#cfd3d1"/>
+<text x="1265" y="827" class="head">04 · ВЫХОД ЗА КРАЙ</text>
+<text x="1265" y="862" class="body">Пакет продолжается за нижнюю</text>
+<text x="1265" y="890" class="body">границу y = 1000; срез — только</text>
+<text x="1265" y="918" class="body">по краю холста. Верх и бока целы.</text>
+<text x="1265" y="958" class="body">Кадр: прозрачный WebP 1000 × 1000,</text>
+<text x="1265" y="986" class="body">до 300 КБ, чёткий исходник.</text>
+<text x="1265" y="1018" class="small">Чертёж задаёт одну форму упаковки;</text>
+<text x="1265" y="1035" class="small">плитные товары остаются отдельным типом.</text>
+
+<text x="210" y="1145" class="sub">Горизонтальная размерная ось: центр x ≈ 500 px · боковые границы образца x = 218 и x = 783 px · верхняя точка y = 105 px · нижняя линия y = 1000 px</text>
+<text x="210" y="1175" class="small">Схематичный чертёж положения и пропорций. Фактический силуэт, брендинг, цвет и фактура берутся из фотографии соответствующего SKU.</text>
+</svg>

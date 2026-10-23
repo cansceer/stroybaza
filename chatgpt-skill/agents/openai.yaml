@@ -1,0 +1,14 @@
+interface:
+  display_name: stroybaza design
+  short_description: Создавай визуальные материалы «Стройбазы» по вложенным правилам,
+    референсам и канону бренда. Используй для сайта, рекламы, статей, SMM, персонажей
+    и редактируемых Figma-макетов.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
