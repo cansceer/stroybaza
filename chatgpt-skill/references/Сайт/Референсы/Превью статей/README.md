@@ -24,5 +24,3 @@
 | `cp-article-613-cover.webp` | Как подготовить участок с уклоном к строительству дома | [Открыть](https://stroybaza-saratov.ru/blog/kak-podgotovit-uchastok-s-uklonom-k-stroitelstvu-doma/) |
 | `cp-article-50-cover.webp` | Рельеф участка и грунтовые воды: как это влияет на фундамент | [Открыть](https://stroybaza-saratov.ru/blog/relef-uchastka-i-gruntovye-vody-kak-eto-vliyaet-na-fundament/) |
 | `cp-article-615-cover.webp` | Из чего построить дом для постоянного проживания | [Открыть](https://stroybaza-saratov.ru/blog/iz-chego-postroit-dom-dlya-postoyannogo-prozhivaniya/) |
-
-

@@ -1,0 +1,24 @@
+name: Validate plugin packages
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - name: Enable long Git paths
+        shell: pwsh
+        run: git config --global core.longpaths true
+      - uses: actions/checkout@v4
+      - name: Validate both packages
+        shell: pwsh
+        run: ./scripts/validate.ps1
+      - name: Test validation and safe imports
+        shell: pwsh
+        run: ./scripts/test.ps1 -ScratchDirectory "$env:RUNNER_TEMP/stroybaza-tests"
+      - name: Build and inspect both archives
+        shell: pwsh
+        run: ./scripts/build.ps1 -OutputDirectory "$env:RUNNER_TEMP/stroybaza-build"

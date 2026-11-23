@@ -1,34 +1,36 @@
-param(
-    [string]$OutputDirectory = (Join-Path $PSScriptRoot '..\dist')
+#Requires -Version 7.0
+[CmdletBinding()]
+param([string]$OutputDirectory = (Join-Path $PSScriptRoot '../dist'))
+. (Join-Path $PSScriptRoot 'lib.ps1')
+$repo = Assert-SafePath (Join-Path $PSScriptRoot '..')
+& (Join-Path $PSScriptRoot 'validate.ps1') -RepositoryRoot $repo
+$output = Assert-SafePath $OutputDirectory
+$packages = @(
+    @{Source='chatgpt-skill';Name='stroybaza-design.zip'},
+    @{Source='codex-plugin';Name='stroybaza-codex-plugin.zip'}
 )
-
-$ErrorActionPreference = 'Stop'
-$repositoryRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
-$skillDirectory = Join-Path $repositoryRoot 'chatgpt-skill'
-$resolvedOutput = [IO.Path]::GetFullPath($OutputDirectory)
-$archivePath = Join-Path $resolvedOutput 'stroybaza-design.zip'
-
-if (-not (Test-Path -LiteralPath (Join-Path $skillDirectory 'SKILL.md'))) {
-    throw "Не найден chatgpt-skill/SKILL.md"
+foreach ($package in $packages) {
+    $source = Join-Path $repo $package.Source
+    if ($output -eq $source -or $output.StartsWith($source+[IO.Path]::DirectorySeparatorChar,[StringComparison]::OrdinalIgnoreCase)) { throw 'Архив должен находиться вне упаковываемой папки' }
+    if (Test-Path -LiteralPath (Join-Path $output $package.Name)) { throw "Архив уже существует; выберите другую OutputDirectory: $($package.Name)" }
 }
-
-New-Item -ItemType Directory -Path $resolvedOutput -Force | Out-Null
-if (Test-Path -LiteralPath $archivePath) {
-    [IO.File]::Delete($archivePath)
+$null = New-Item -ItemType Directory -Path $output -Force
+foreach ($package in $packages) {
+    $source = Join-Path $repo $package.Source
+    $archivePath = Join-Path $output $package.Name
+    $staged = $archivePath+'.'+[guid]::NewGuid().ToString('N')+'.partial'
+    [IO.Compression.ZipFile]::CreateFromDirectory($source,$staged,[IO.Compression.CompressionLevel]::Optimal,$false)
+    if ((Get-Item -LiteralPath $staged).Length -ge 25MB) { throw "Архив превышает 25 МБ, сохранён для разбора: $staged" }
+    $zip = [IO.Compression.ZipFile]::OpenRead($staged)
+    try {
+        $expected = @(Get-RegularFiles $source).Count
+        if ($zip.Entries.Count -ne $expected) { throw "Неполный архив: $staged" }
+        $entryPoint = if ($package.Source -eq 'chatgpt-skill') {'SKILL.md'} else {'plugin.json'}
+        if (-not $zip.GetEntry($entryPoint)) { throw "Нет точки входа в архиве: $entryPoint" }
+        foreach ($entry in $zip.Entries) {
+            if ($entry.FullName -match '(^[/\\]|(^|[/\\])\.\.([/\\]|$))') { throw 'Путь вне архива' }
+        }
+    } finally { $zip.Dispose() }
+    [IO.File]::Move($staged,$archivePath)
+    Write-Output "Готово: $archivePath ($((Get-Item -LiteralPath $archivePath).Length) байт)"
 }
-
-Add-Type -AssemblyName System.IO.Compression.FileSystem
-[IO.Compression.ZipFile]::CreateFromDirectory(
-    $skillDirectory,
-    $archivePath,
-    [IO.Compression.CompressionLevel]::Optimal,
-    $true
-)
-
-$archive = Get-Item -LiteralPath $archivePath
-if ($archive.Length -ge 25MB) {
-    throw "Архив превышает лимит 25 МБ: $([math]::Round($archive.Length / 1MB, 2)) МБ"
-}
-
-Write-Output "Готово: $archivePath"
-Write-Output "Размер: $([math]::Round($archive.Length / 1MB, 2)) МБ"
