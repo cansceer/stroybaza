@@ -26,7 +26,7 @@
    ./scripts/sync-resources.ps1
    ./scripts/validate.ps1
    ./scripts/test.ps1 -ScratchDirectory "D:/codex-temp/stroybaza-checks"
-   ./scripts/build.ps1 -OutputDirectory "D:/codex-temp/stroybaza-build-1.1.0"
+   ./scripts/build.ps1 -OutputDirectory "D:/codex-temp/stroybaza-build-1.1.1"
    ```
 
    Выберите доступные временные каталоги своего устройства. Тесты создают отдельную подпапку, ничего не удаляют и сообщают путь. Не помещайте временные данные в пакет.
@@ -68,3 +68,7 @@ codex plugin list --marketplace stroybaza --json
 Проверьте текущую версию в списке. Если открытый чат показывает старые инструкции, начните новый чат или перезагрузите плагины штатным способом. [Описание установленного пакета](codex-plugin/README.md).
 
 Для нативного редактируемого Figma-документа нужна отдельно доступная Figma-интеграция. Сам плагин не подключает её и не выдаёт плоский экспорт за редактируемый исходник.
+
+### Установка на Windows с длинными путями
+
+При работе из checkout рекомендуется `./scripts/install-codex.ps1` (при первой установке — `-RegisterMarketplace`). Скрипт временно передаёт дочернему Git `core.longpaths=true` через окружение, сохраняет ранее заданные настройки, обновляет и проверяет плагин, затем восстанавливает окружение. Глобальные настройки Git не меняются. Для нового checkout используйте указанное выше `git -c core.longpaths=true clone ...`. Способ без checkout описан в `codex-plugin/README.md`.

@@ -1,6 +1,6 @@
 # Плагин Codex «Стройбаза»
 
-Версия 1.1.0 включает правила, брендбук, канон персонажей, шрифты с лицензиями, логотипы, рекламные SVG и референсы сайта/SMM. Отдельная папка автора не требуется.
+Версия 1.1.1 включает правила, брендбук, канон персонажей, шрифты с лицензиями, логотипы, рекламные SVG и референсы сайта/SMM. Отдельная папка автора не требуется.
 
 ## Установка и обновление
 
@@ -17,7 +17,7 @@ codex plugin add stroybaza-design@stroybaza
 codex plugin list --marketplace stroybaza --json
 ```
 
-Проверьте версию 1.1.0 в списке. Если открытый чат продолжает показывать старую версию навыка, начните новый чат или перезагрузите плагины штатным способом.
+Проверьте версию 1.1.1 в списке. Если открытый чат продолжает показывать старую версию навыка, начните новый чат или перезагрузите плагины штатным способом.
 
 ## Работа
 
@@ -26,3 +26,18 @@ codex plugin list --marketplace stroybaza --json
 Товарный рекламный комплект по умолчанию — 10 JPEG; с персонажами — 7 JPEG по имеющимся утверждённым шаблонам. Три отсутствующих светлых шаблона нельзя выдумывать или заменять товарными.
 
 Figma требует отдельно подключённой интеграции. Нативный редактируемый макет и статичные экспорты выдаются отдельно. Результаты не сохраняются в каталог плагина.
+
+## Длинные пути в Git for Windows
+
+При `Filename too long` задайте настройку только для дочерних команд текущего PowerShell, затем повторите обновление:
+
+```powershell
+$gitConfigSlot = if ($env:GIT_CONFIG_COUNT) { [int]$env:GIT_CONFIG_COUNT } else { 0 }
+[Environment]::SetEnvironmentVariable("GIT_CONFIG_KEY_$gitConfigSlot", "core.longpaths", "Process")
+[Environment]::SetEnvironmentVariable("GIT_CONFIG_VALUE_$gitConfigSlot", "true", "Process")
+$env:GIT_CONFIG_COUNT = ($gitConfigSlot + 1).ToString()
+codex plugin marketplace upgrade stroybaza
+codex plugin add stroybaza-design@stroybaza
+```
+
+Эти значения действуют до закрытия PowerShell и не меняют глобальную конфигурацию Git. В репозитории также есть `scripts/install-codex.ps1`: он задаёт эту настройку на время обновления и восстанавливает прежнее окружение в `finally`. Для первой установки у него есть флаг `-RegisterMarketplace`.
