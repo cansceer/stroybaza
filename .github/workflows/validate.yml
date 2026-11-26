@@ -22,6 +22,9 @@ jobs:
       - name: Test named product format selection
         shell: pwsh
         run: node --test ./scripts/test-product-profiles.mjs
+      - name: Test article image briefs and correction review
+        shell: pwsh
+        run: node --test ./scripts/test-article-images.mjs
       - name: Build and inspect both archives
         shell: pwsh
         run: ./scripts/build.ps1 -OutputDirectory "$env:RUNNER_TEMP/stroybaza-build"

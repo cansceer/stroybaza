@@ -109,4 +109,6 @@ foreach ($script in Get-ChildItem -LiteralPath $PSScriptRoot -Filter '*.ps1' -Fi
 if (-not (Get-Command node -ErrorAction SilentlyContinue)) { throw 'Для проверки товарных форматов нужен Node.js 18+.' }
 & node (Join-Path $PSScriptRoot 'validate-product-profiles.mjs') $repo
 if ($LASTEXITCODE -ne 0) { throw 'Проверка товарных форматов не пройдена.' }
+& node (Join-Path $PSScriptRoot 'validate-article-images.mjs') $repo
+if ($LASTEXITCODE -ne 0) { throw 'Проверка фотографических брифов не пройдена.' }
 Write-Output "OK: версия $($manifest.version), $resourceCount одинаковых ресурсов, $linkCount локальных ссылок, 10 товарных и 7 персонажных вариантов."

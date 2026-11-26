@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-26",
+  "references": [
+    {
+      "id": "wet-coating",
+      "file": "gidroizolyacia-teaser_2.webp",
+      "sourcePage": "https://stroybaza-samara.ru/blog/kak-sdelat-gidroizolyaciyu-pola-vybor-materialov-i-tehnologiya-nanesen/",
+      "sourceImage": "https://stroybaza-samara.ru/media/staticpages/images/gidroizolyacia-teaser_2.webp",
+      "checkedOn": "2026-11-26",
+      "sha256": "edef472d1a716f0051e847a19347f93d548931f0c55de4fe4c332a310e86da5a",
+      "width": 500,
+      "height": 200,
+      "accentGroup": "Нанесённый слой гидроизоляции",
+      "surfaces": [
+        "нанесённая гидроизоляция"
+      ],
+      "borrow": "Блики и отражения на цветном влажном слое, нейтральные кисть/перчатка/основание. Площадь материала может быть большой; не копировать низкое разрешение обложки."
+    },
+    {
+      "id": "metal-lintel",
+      "file": "cp-article-2030-cover.webp",
+      "sourcePage": "https://stroybaza-samara.ru/blog/kakoy-metallicheskiy-ugolok-zakazat-dlya-peremychki-nad-proyomom/",
+      "sourceImage": "https://stroybaza-samara.ru/media/staticpages/images/cp-article-2030-cover.webp",
+      "checkedOn": "2026-11-26",
+      "sha256": "a46d18996244cb4472cbd1b9fc25132d6c7edb8a4588f75aa060c84fdf4d5c52",
+      "width": 1536,
+      "height": 1024,
+      "accentGroup": "Металлическая перемычка",
+      "surfaces": [
+        "металлическая перемычка"
+      ],
+      "borrow": "Приглушённый оттенок вдоль металлической поверхности с сохранением отражений, затенённой нижней грани и стыка с кирпичом. Рабочий и кладка нейтральные."
+    },
+    {
+      "id": "foundation-insulation",
+      "file": "cp-article-14-cover.webp",
+      "sourcePage": "https://stroybaza-samara.ru/blog/uteplenie-fundamenta-i-otmostki-materialy-i-tekhnologiya/",
+      "sourceImage": "https://stroybaza-samara.ru/media/staticpages/images/cp-article-14-cover.webp",
+      "checkedOn": "2026-11-26",
+      "sha256": "1f2034756f712bdcdd2a129c8bb84cc85b94c37fefe1e55fcc17b08d5855b04c",
+      "width": 1536,
+      "height": 1024,
+      "accentGroup": "Утеплитель фундамента",
+      "surfaces": [
+        "плиты утеплителя"
+      ],
+      "borrow": "Связная группа плит: видны фактура, толщина торца, стыки, контактные тени. Земля, одежда и лицо нейтральные."
+    },
+    {
+      "id": "floor-reflections",
+      "file": "../Страницы статей/Наливной пол/floor-1-teaser.webp",
+      "sourcePage": "https://stroybaza-samara.ru/blog/kak-sgladit-nerovnosti-pola-s-pomoshyu-nalivnogo-pola/",
+      "checkedOn": "2026-11-26",
+      "sha256": "9669ef8367ddb4357dde2845191eb55ae65d0c8f078a803b04998f0522c2adc1",
+      "width": 1180,
+      "height": 631,
+      "accentGroup": "Поверхность наливного пола",
+      "surfaces": [
+        "наливной пол"
+      ],
+      "borrow": "Широкая поверхность с перспективой, светотеневым градиентом и отражениями. Логотип не переносить; это пример внутреннего изображения статьи. Вложенная копия сжата, не использовать как мастер нового экспорта."
+    }
+  ]
+}
