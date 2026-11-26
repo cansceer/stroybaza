@@ -60,6 +60,36 @@
         "наливной пол"
       ],
       "borrow": "Широкая поверхность с перспективой, светотеневым градиентом и отражениями. Логотип не переносить; это пример внутреннего изображения статьи. Вложенная копия сжата, не использовать как мастер нового экспорта."
+    },
+    {
+      "id": "roof-hand-detail",
+      "file": "cp-article-545-1.webp",
+      "sourcePage": "https://stroybaza-kaluga.ru/blog/pochemu-krovelnyy-material-nelzya-vybirat-tolko-po-vneshnemu-vidu/",
+      "sourceImage": "https://stroybaza-kaluga.ru/media/uploads/article-img/cp-article-545-1.webp",
+      "checkedOn": "2026-11-26",
+      "sha256": "e0e43c85aab4dce15426ed9eaaedc5bd9495863f2a1e4bcccddb33f39af296df",
+      "width": 1536,
+      "height": 1024,
+      "accentGroup": "Покрытие кровли",
+      "surfaces": [
+        "поверхности материала по сюжету"
+      ],
+      "borrow": "Профессиональный крупный план: рука работает с реальным покрытием. Сохранять естественный контакт, фактуру и свет. Не копировать подпись/город."
+    },
+    {
+      "id": "roof-worker-action",
+      "file": "cp-article-545-4.webp",
+      "sourcePage": "https://stroybaza-kaluga.ru/blog/pochemu-krovelnyy-material-nelzya-vybirat-tolko-po-vneshnemu-vidu/",
+      "sourceImage": "https://stroybaza-kaluga.ru/media/uploads/article-img/cp-article-545-4.webp",
+      "checkedOn": "2026-11-26",
+      "sha256": "af4148358a18f9a1e5fb155766890dfe34a3d1cdc9de5dd851a0ae3c14e521d4",
+      "width": 1536,
+      "height": 1024,
+      "accentGroup": "Материал в рабочем узле",
+      "surfaces": [
+        "поверхности материала по сюжету"
+      ],
+      "borrow": "Обычный кровельщик в действии; человек раскрывает тему и масштаб материала. Приглушённый цвет, объём, естественная поза. Не переносить действие или подпись механически."
     }
   ]
 }

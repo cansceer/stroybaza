@@ -3,6 +3,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
+import { resolveArticleSignature } from './article-signature.mjs';
 
 const catalogUrl = new URL('../references/Сайт/Референсы/Статьи/articles.json', import.meta.url);
 const catalog = JSON.parse(readFileSync(catalogUrl, 'utf8'));
@@ -41,22 +42,30 @@ export function buildArticleBrief(input) {
     return { ...ref, usage: 'Только обработка/свет/поведение материала; не переносить сюжет и логотип' };
   });
   const edit = input.mode === 'color-correct';
+  const humanAction = input.humanAction === undefined ? null : nonempty(input.humanAction, 'humanAction');
+  if(edit && humanAction) throw new Error('Добавление человека/смена действия не относится к коррекции цвета; менять сюжет нужно отдельной задачей.');
   const baseImage = edit ? nonempty(input.baseImage, 'baseImage — лучший реалистичный мастер') : null;
   if (!edit && input.baseImage) throw new Error('Для изменения существующего кадра выбери color-correct');
   const surfaceList = surfaces.join('; ');
   const palette = 'Приглушённый #B5AA7D — ориентир оттенка материала в средних тонах. Сохрани изменение цвета под светом, перепады яркости, тени, блики, отражения и микрофактуру. Не добивайся одинакового RGB по поверхности.';
   const prompt = edit
     ? `Редактируй приложенный исходный фотографический мастер. Единственная задача — скорректировать оттенок/насыщенность этих уже существующих поверхностей: ${surfaceList}. ${palette} Всё за их пределами сохранить. Сохрани ${preserve.join('; ')}. Не добавляй новые акцентные предметы.`
-    : `Создай реалистичную фотографию: ${scene}. Смысловая группа акцента: ${group}; только поверхности: ${surfaceList}. Основание выбора: ${reason}. ${palette} Окружение почти монохромное; люди и кожа нейтрально-серые. Реальные масштаб, перспектива и строительная операция, естественный свет и контактные тени.`;
+    : `Создай реалистичную фотографию: ${scene}. ${humanAction ? `Профессиональный редакционный кадр с человеком: ${humanAction}.` : 'Обычные строители и мастера в кадре разрешены, когда их действие раскрывает тему; не заменяй осмысленное действие повторным натюрмортом.'} Это обычные участники строительной сцены; утверждённые рекламные персонажи бренда не обязательны. Смысловая группа акцента: ${group}; только поверхности: ${surfaceList}. Основание выбора: ${reason}. ${palette} Окружение почти монохромное; люди и кожа нейтрально-серые. Реальные масштаб, перспектива и строительная операция, естественный свет и контактные тени.`;
+  let finalization = {status:'pending-export', signatureRequired:false, nextStep:'Превью экспортировать без подписи после приёмки фотографии.'};
+  if(input.role === 'body') {
+    try {finalization={status:'pending-signature',signatureRequired:true,signature:resolveArticleSignature(input.domain),nextStep:'После кадрирования получить план article-signature.mjs, наложить полный SVG с городом и проверить конечный WebP. Мастер без подписи ещё не финал.'};}
+    catch(error) {finalization={status:input.domain?'domain-unresolved':'domain-required',signatureRequired:true,error:error.message,nextStep:'Фотографию можно подготовить; финал заблокирован до определения подписи целевого домена.'};}
+  }
   return {
-    mode: input.mode, role: input.role, scene, accent: { group, surfaces, reason },
+    mode: input.mode, role: input.role, scene, humanAction, peoplePolicy:{ordinaryWorkersAllowed:true,brandCharactersRequired:false}, accent: { group, surfaces, reason },
     targetImage: baseImage, references,
     allowedChanges: edit ? [`только оттенок и насыщенность: ${surfaceList}`] : ['новый фотографический мастер по описанному сюжету'],
     preserve: edit ? [...preserve] : [],
     prompt: `${prompt} Референсы задают характер обработки. Результат остаётся фотографией. Без плоских заливок, векторизации, постеризации, наклеек, обводок, общего золотого фильтра, текста, рамок и логотипа.`,
     nextStep: edit ? 'Открой мастер и передай его редактору как целевое изображение; сравни до/после по всем requiredChecks.' : 'Открой референсы, создай и отдельно сохрани лучший реалистичный мастер до коррекции/экспорта.',
+    finalization,
     onFailure: 'Отклонить правку и вернуться к лучшему реалистичному мастеру; не продолжать от испорченной версии.',
-    exportPolicy: input.role === 'preview' ? 'Превью 1536×1024 WebP ≤500 КБ, без логотипа; экспорт после приёмки фотографии.' : 'Размер по роли в статье, WebP ≤300 КБ; оригинальный SVG отдельно после приёмки фотографии.',
+    exportPolicy: input.role === 'preview' ? 'Превью 1536×1024 WebP ≤500 КБ, без логотипа; экспорт после приёмки фотографии.' : 'Размер по роли в статье, WebP ≤300 КБ. Обязателен оригинальный полный SVG X + СТРОЙБАЗА + город целевого домена справа снизу. До его монтажа мастер не является финальным изображением статьи.',
     requiredChecks: [...requiredChecks],
     assessment: 'Ручной визуальный просмотр обязателен. Скрипт не редактирует и не анализирует пиксели.',
   };
@@ -68,7 +77,7 @@ export function reviewArticleEdit(checks) {
   const accepted = !missing.length && !failed.length;
   return {
     accepted, missing, failed,
-    action: accepted ? 'Можно переходить к отдельному экспорту/наложению логотипа по роли.' : 'Не принимать. Дополнить визуальную проверку или отклонить правку и вернуться к лучшему реалистичному мастеру.',
+    action: accepted ? 'Фотография принята. Можно переходить к экспорту/монтажу подписи по роли; для внутренней статьи без полного логотипа и города финал ещё не принят.' : 'Не принимать. Дополнить визуальную проверку или отклонить правку и вернуться к лучшему реалистичному мастеру.',
     assessment: 'Результат основан на предоставленных ручных оценках, не на анализе изображения.',
   };
 }

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-26",
+  "sourcePage": "https://stroybaza-kaluga.ru/blog/sploshnoe-ograzhdenie-ili-lyogkiy-zabor-chto-vybrat-dlya-chastnogo-uch/",
+  "mappingSource": "city selector on sourcePage",
+  "sources": {
+    "mark": "../../Страницы статей/logo-article.svg",
+    "wordmark": "../../../../Общие правила (алгоритм)/Дизайн-код/Логотипы/светлый-лого-1-строка.svg",
+    "font": "../../../../Общие правила (алгоритм)/Ресурсы/Шрифты/Montserrat/Montserrat[wght].ttf"
+  },
+  "viewBox": [
+    0,
+    0,
+    180,
+    180
+  ],
+  "opacity": 0.8,
+  "domains": [
+    {
+      "domain": "stroybaza-moscow.ru",
+      "city": "Москва",
+      "asset": "stroybaza-moscow.svg",
+      "sha256": "aa30efe5faa897814c9574e85260341f9534ddf690b4a989608ad2237feea319"
+    },
+    {
+      "domain": "stroybaza-voronezh.ru",
+      "city": "Воронеж",
+      "asset": "stroybaza-voronezh.svg",
+      "sha256": "b524b4e9628ddaa28275731a1eb7227012a53c7d9ccc92eefbab4c7915282114"
+    },
+    {
+      "domain": "stroybaza-samara.ru",
+      "city": "Самара",
+      "asset": "stroybaza-samara.svg",
+      "sha256": "7f2582a673c45e4671c39e960d98dd2e1954ddc9a8e042d3c23a378af9c4082f"
+    },
+    {
+      "domain": "stroybaza-togliatti.ru",
+      "city": "Тольятти",
+      "asset": "stroybaza-togliatti.svg",
+      "sha256": "d86a18aa41c070fc38c0095086922685a747bf0133e9bdc6e079e47e603c6abb"
+    },
+    {
+      "domain": "stroybaza-ulyanovsk.ru",
+      "city": "Ульяновск",
+      "asset": "stroybaza-ulyanovsk.svg",
+      "sha256": "8f7cdcd32ddaf5313e2e46613cc16927ea4f1e4bb3a4a46cc009e9e79e7936d7"
+    },
+    {
+      "domain": "stroybaza-kaluga.ru",
+      "city": "Калуга",
+      "asset": "stroybaza-kaluga.svg",
+      "sha256": "c4e9b67798aa9abf2eebd823e9a4cbcb053a87364c5723101379eaa1704136aa"
+    },
+    {
+      "domain": "stroybaza-yaroslavl.ru",
+      "city": "Ярославль",
+      "asset": "stroybaza-yaroslavl.svg",
+      "sha256": "0f1c4535a438407ffc7b8e1701313868c55cb3e1c0fec84ed5fdff1d91145f57"
+    },
+    {
+      "domain": "stroybaza-smolensk.ru",
+      "city": "Смоленск",
+      "asset": "stroybaza-smolensk.svg",
+      "sha256": "ea2ac21970a22212428e6230401f8b2d4d9cb539c43d26741c24ce8c916e88ec"
+    },
+    {
+      "domain": "stroybaza-bryansk.ru",
+      "city": "Брянск",
+      "asset": "stroybaza-bryansk.svg",
+      "sha256": "3b3ac8010b07bb0a002b39f7151fff22c92f825c856393e452cf9df8e0d6be75"
+    },
+    {
+      "domain": "stroybaza-tula.ru",
+      "city": "Тула",
+      "asset": "stroybaza-tula.svg",
+      "sha256": "4bf475523344ed051920dc994db16ce5f57baa199c4bec6105445158d35462ee"
+    },
+    {
+      "domain": "stroybaza-ryazan.ru",
+      "city": "Рязань",
+      "asset": "stroybaza-ryazan.svg",
+      "sha256": "f81932134a84953740323e6fde06c16ed4ed1611499f5a1fd7de1e6c1d2c42a1"
+    },
+    {
+      "domain": "stroybaza-vladimir.ru",
+      "city": "Владимир",
+      "asset": "stroybaza-vladimir.svg",
+      "sha256": "8fe82a8fa3da9c3f0314102de42ecedb414123a2d2bfd80ec671fdcd59ed4ea0"
+    },
+    {
+      "domain": "stroybaza-tveri.ru",
+      "city": "Тверь",
+      "asset": "stroybaza-tveri.svg",
+      "sha256": "dd3f1672df0ccd785cb3bc972b4ffacad46b25a154ed25cfd57a27662752d10d"
+    },
+    {
+      "domain": "stroybaza-chapaevsk.ru",
+      "city": "Чапаевск",
+      "asset": "stroybaza-chapaevsk.svg",
+      "sha256": "7f48a4ca33d22fe2be96027816e0cb31aab22272504ce964490378671aadb601"
+    },
+    {
+      "domain": "stroybaza-chelyabinsk.ru",
+      "city": "Челябинск",
+      "asset": "stroybaza-chelyabinsk.svg",
+      "sha256": "1d520d69ab54eee392e9f2c55542057efc213bd2cebcdcfbecad5576a9be74a0"
+    },
+    {
+      "domain": "stroybaza-ekat.ru",
+      "city": "Екатеринбург",
+      "asset": "stroybaza-ekat.svg",
+      "sha256": "57a54c15ccce85665d4976ac20922d1b4410a114b75060ebb0b9cd39c50bfde6"
+    },
+    {
+      "domain": "stroybaza-izhevsk.ru",
+      "city": "Ижевск",
+      "asset": "stroybaza-izhevsk.svg",
+      "sha256": "063096f0c3a1f9cd7a1d9ffda21c0b70f942162c6831b7f61b5664a3334075f2"
+    },
+    {
+      "domain": "stroybaza-novosib.ru",
+      "city": "Новосибирск",
+      "asset": "stroybaza-novosib.svg",
+      "sha256": "dee244d72cbf64fcb05d2a6d9f5edb1c3e7ae993d8bc5734249bb3aa8f5ea416"
+    },
+    {
+      "domain": "stroybaza-omsk.ru",
+      "city": "Омск",
+      "asset": "stroybaza-omsk.svg",
+      "sha256": "2c16aba40dbc60467bf62a41ff49e6ac4cdd605d5c82e51f83e4c6e688aa82f2"
+    },
+    {
+      "domain": "stroybaza-perm.ru",
+      "city": "Пермь",
+      "asset": "stroybaza-perm.svg",
+      "sha256": "90fc3c787ab55d857f338a599434c512c912fda84cb7b452e56f95da4463aa8f"
+    },
+    {
+      "domain": "stroybazaufa.ru",
+      "city": "Уфа",
+      "asset": "stroybazaufa.svg",
+      "sha256": "d38ae352cf9a7576d5e81c3f36ce0397c8072730ce2ca8b5b06bf01cc79e8908"
+    },
+    {
+      "domain": "stroybaza-krasnodar.ru",
+      "city": "Краснодар",
+      "asset": "stroybaza-krasnodar.svg",
+      "sha256": "9cd5dadb7d9544aa47d5e7c3f3195818412ca873a583c36dafafe38ab4cadf0c"
+    },
+    {
+      "domain": "stroybaza-kazan.ru",
+      "city": "Казань",
+      "asset": "stroybaza-kazan.svg",
+      "sha256": "d7acaa998f5e6298d00cd7bad35afbdba4a7e31138166504cfbcda6e35075aaa"
+    },
+    {
+      "domain": "stroybaza-nizhny.ru",
+      "city": "Нижний Новгород",
+      "asset": "stroybaza-nizhny.svg",
+      "sha256": "091e23750ea3cc659de406b41f556b5e9ae3851b142458176db0647a6a3f0f44"
+    },
+    {
+      "domain": "stroybaza-rostov-na-donu.ru",
+      "city": "Ростов-на-Дону",
+      "asset": "stroybaza-rostov-na-donu.svg",
+      "sha256": "52f28ce2271b507a2505a35d4f38c349ef2ec7a91cedd49938e49e675aec107b"
+    },
+    {
+      "domain": "stroybaza-saratov.ru",
+      "city": "Саратов",
+      "asset": "stroybaza-saratov.svg",
+      "sha256": "9e4607e0a3c8a15511d27a3146ad46edcab3f20a6e3298f3c4cc750e2cd883ad"
+    },
+    {
+      "domain": "stroybaza-spb.ru",
+      "city": "Санкт-Петербург",
+      "asset": "stroybaza-spb.svg",
+      "sha256": "950571691b9960d823d278bfe92bea2a03753a4df3ee48de762b254903b63024"
+    },
+    {
+      "domain": "stroybaza-volgograd.ru",
+      "city": "Волгоград",
+      "asset": "stroybaza-volgograd.svg",
+      "sha256": "bea6e875692007ba8e172177370807aa7d1a037a4cee04d0f3e3892362b09a3d"
+    }
+  ]
+}
