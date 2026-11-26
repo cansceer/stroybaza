@@ -6,7 +6,7 @@ $repo = Assert-SafePath $RepositoryRoot
 $canonical = Join-Path $repo 'chatgpt-skill'
 $codexSkill = Join-Path $repo 'codex-plugin/skills/stroybaza-project'
 $copies = @()
-foreach ($branch in @('references', 'assets', 'agents')) {
+foreach ($branch in @('references', 'assets', 'agents', 'scripts')) {
     $source = Join-Path $canonical $branch
     $target = Join-Path $codexSkill $branch
     foreach ($file in Get-RegularFiles $source) {

@@ -19,12 +19,22 @@ foreach ($package in $packages) {
     $source = Join-Path $repo $package.Source
     $archivePath = Join-Path $output $package.Name
     $staged = $archivePath+'.'+[guid]::NewGuid().ToString('N')+'.partial'
-    [IO.Compression.ZipFile]::CreateFromDirectory($source,$staged,[IO.Compression.CompressionLevel]::Optimal,$false)
+    $sourceFiles = @(Get-RegularFiles $source)
+    $writer = [IO.Compression.ZipFile]::Open($staged,[IO.Compression.ZipArchiveMode]::Create)
+    try {
+        foreach ($file in $sourceFiles) {
+            $null = [IO.Compression.ZipFileExtensions]::CreateEntryFromFile($writer,$file.FullName,(Get-Relative $source $file.FullName),[IO.Compression.CompressionLevel]::Optimal)
+        }
+    } finally { $writer.Dispose() }
     if ((Get-Item -LiteralPath $staged).Length -ge 25MB) { throw "Архив превышает 25 МБ, сохранён для разбора: $staged" }
     $zip = [IO.Compression.ZipFile]::OpenRead($staged)
     try {
-        $expected = @(Get-RegularFiles $source).Count
+        $expected = $sourceFiles.Count
         if ($zip.Entries.Count -ne $expected) { throw "Неполный архив: $staged" }
+        foreach ($file in $sourceFiles) {
+            $entry = $zip.GetEntry((Get-Relative $source $file.FullName))
+            if (-not $entry -or $entry.Length -ne $file.Length) { throw "Неполный файл в архиве: $($file.FullName)" }
+        }
         $entryPoint = if ($package.Source -eq 'chatgpt-skill') {'SKILL.md'} else {'plugin.json'}
         if (-not $zip.GetEntry($entryPoint)) { throw "Нет точки входа в архиве: $entryPoint" }
         foreach ($entry in $zip.Entries) {

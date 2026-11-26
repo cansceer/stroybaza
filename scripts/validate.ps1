@@ -86,7 +86,7 @@ foreach ($entry in @(@{Path=$canonical;Name='stroybaza-design'},@{Path=$codexSki
     }
 }
 $resourceCount = 0
-foreach ($branch in @('references','assets','agents')) {
+foreach ($branch in @('references','assets','agents','scripts')) {
     $source = Join-Path $canonical $branch
     $target = Join-Path $codexSkill $branch
     foreach ($file in Get-RegularFiles $source) {
@@ -106,4 +106,7 @@ foreach ($script in Get-ChildItem -LiteralPath $PSScriptRoot -Filter '*.ps1' -Fi
     $null = [Management.Automation.Language.Parser]::ParseFile($script.FullName,[ref]$tokens,[ref]$parseErrors)
     if ($parseErrors.Count) { throw "Ошибка синтаксиса: $($script.Name): $($parseErrors[0].Message)" }
 }
+if (-not (Get-Command node -ErrorAction SilentlyContinue)) { throw 'Для проверки товарных форматов нужен Node.js 18+.' }
+& node (Join-Path $PSScriptRoot 'validate-product-profiles.mjs') $repo
+if ($LASTEXITCODE -ne 0) { throw 'Проверка товарных форматов не пройдена.' }
 Write-Output "OK: версия $($manifest.version), $resourceCount одинаковых ресурсов, $linkCount локальных ссылок, 10 товарных и 7 персонажных вариантов."

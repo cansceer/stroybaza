@@ -16,7 +16,7 @@
 
 ## Разработка и выпуск
 
-Нужны Git и PowerShell 7+. На Windows при длинных путях включите для своего checkout `git config core.longpaths true`; при новом клонировании можно использовать `git -c core.longpaths=true clone https://github.com/cansceer/stroybaza.git`.
+Нужны Git, PowerShell 7+ и Node.js 18+ для проверки и выбора товарных форматов. На Windows при длинных путях включите для своего checkout `git config core.longpaths true`; при новом клонировании можно использовать `git -c core.longpaths=true clone https://github.com/cansceer/stroybaza.git`.
 
 1. Отредактируйте общую библиотеку `chatgpt-skill/references/` и применимые инструкции среды.
 2. Повышайте версию **обоих** манифестов Codex при изменении устанавливаемого пакета: кэш установленного плагина нельзя править вручную.
@@ -26,7 +26,7 @@
    ./scripts/sync-resources.ps1
    ./scripts/validate.ps1
    ./scripts/test.ps1 -ScratchDirectory "D:/codex-temp/stroybaza-checks"
-   ./scripts/build.ps1 -OutputDirectory "D:/codex-temp/stroybaza-build-1.1.1"
+   ./scripts/build.ps1 -OutputDirectory "D:/codex-temp/stroybaza-build-1.2.0"
    ```
 
    Выберите доступные временные каталоги своего устройства. Тесты создают отдельную подпапку, ничего не удаляют и сообщают путь. Не помещайте временные данные в пакет.
@@ -72,3 +72,10 @@ codex plugin list --marketplace stroybaza --json
 ### Установка на Windows с длинными путями
 
 При работе из checkout рекомендуется `./scripts/install-codex.ps1` (при первой установке — `-RegisterMarketplace`). Скрипт временно передаёт дочернему Git `core.longpaths=true` через окружение, сохраняет ранее заданные настройки, обновляет и проверяет плагин, затем восстанавливает окружение. Глобальные настройки Git не меняются. Для нового checkout используйте указанное выше `git -c core.longpaths=true clone ...`. Способ без checkout описан в `codex-plugin/README.md`.
+
+
+## Именованные товарные форматы — 1.2.0
+
+Товарные эталоны сверены с живым каталогом 26.11.2026. Добавлены паспорта металлопроката, утеплителя, листовых материалов, наплавляемой кровли, пенопласта, XPS и строительных смесей. Запрос «Подготовь изображения для раздела Профили для ГКЛ по формату металлопроката» выбирает товарный раздел отдельно от композиции. Подвариант определяется по геометрии; подвесы и соединители не превращаются в длинные профили. Снятые/неподтверждённые источники исключены из автоматического выбора. Паспорта, источники и отчёт входят в обе поставки.
+
+Проверка выбора форматов: `node --test ./scripts/test-product-profiles.mjs`. Внутри обеих поставок доступны `scripts/resolve-product-profile.mjs` для выбора композиции и `scripts/check-product-reference.mjs` для повторной сверки источника. Проверка сайта выполняет только чтение; смена хеша требует сравнения изображений.

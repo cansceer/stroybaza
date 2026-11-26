@@ -19,6 +19,9 @@ jobs:
       - name: Test validation and safe imports
         shell: pwsh
         run: ./scripts/test.ps1 -ScratchDirectory "$env:RUNNER_TEMP/stroybaza-tests"
+      - name: Test named product format selection
+        shell: pwsh
+        run: node --test ./scripts/test-product-profiles.mjs
       - name: Build and inspect both archives
         shell: pwsh
         run: ./scripts/build.ps1 -OutputDirectory "$env:RUNNER_TEMP/stroybaza-build"

@@ -1,0 +1,4695 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-11-26.1",
+  "checkedAt": "2026-11-26",
+  "scope": {
+    "historicalTableReferences": 75,
+    "historicalUniqueProductCards": 66,
+    "historicalImageFiles": 81,
+    "primaryCity": "Самара",
+    "crossCheckCity": "Москва",
+    "note": "Все 75 табличных образцов запрошены по исходным карточкам в двух городах; дополнительные композиционные источники проверены в Самаре. Это сверка включённых эталонов, а не всех SKU сети."
+  },
+  "references": [
+    {
+      "id": "catalog-001",
+      "label": "Кровельные материалы",
+      "image": "Сайт/Референсы/Изображения товаров/krovelnye-materialy/profnastil-s8-ocinkovannyj.webp",
+      "status": "visually-current",
+      "packagedSha256": "3c361f22f5c9d1e69f27b95e4faff0383730814567ecd181d490759442771937",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/profnastil-s8-04-dlina-2m-ocinkovannyj/",
+        "image": "https://stroybaza-samara.ru/media/products/images/ocinkov.webp",
+        "sha256": "7454d5a4c21dde4d11c578f8116ada84bd3ce6cdf237f213023742eaa1757598",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1024,
+          1024
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          161,
+          198,
+          862,
+          1024
+        ],
+        "opaqueBounds": [
+          163,
+          200,
+          860,
+          1024
+        ],
+        "normalizedLayoutBounds": [
+          157.23,
+          193.36,
+          841.8,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.6591,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/profnastil-s8-04-dlina-2m-ocinkovannyj/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-002",
+      "label": "Фасадная отделка",
+      "image": "Сайт/Референсы/Изображения товаров/fasadnaya-otdelka/sajding-korabelnaya-doska-grand-line-temno-bezhevyy.webp",
+      "status": "visually-current",
+      "packagedSha256": "cc543a0bb21984b4a97bb5dd04f9d1ab1f6b660797e0c309a3cda22a70aa7a92",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/saiding-korabelnaia-doska-grand-line-color-plus-temno-bezhevyi-30m/",
+        "image": "https://stroybaza-samara.ru/media/uploads/fasadnaya-otdelka/82554.webp",
+        "sha256": "e4bcf6b4a3052886b3c2c1f719162d901304845727dae32409bfd15ec604c043",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          31,
+          94,
+          898,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          105,
+          94,
+          894,
+          1000
+        ],
+        "opaqueBounds": [
+          108,
+          94,
+          894,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          105.0,
+          94.0,
+          894.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.676,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/saiding-korabelnaia-doska-grand-line-color-plus-temno-bezhevyi-30m/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-003",
+      "label": "Листовые материалы",
+      "image": "Сайт/Референсы/Изображения товаров/listovye-materialy/fanera-berezovaya-fk-4-mm.webp",
+      "status": "site-current",
+      "packagedSha256": "462f386a3470e6f3f99be94c23053a33ced659bb5efd0a3dbdf07f6b0a197532",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/fanera-berezovaia-fk-sort-4-4-nsh-1525kh1525-4mm/",
+        "image": "https://stroybaza-samara.ru/media/products/images/fanera-fk-4-4-nsh-1525x1525-4-mm_g0atas9.webp",
+        "sha256": "462f386a3470e6f3f99be94c23053a33ced659bb5efd0a3dbdf07f6b0a197532",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          130,
+          208,
+          870,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          130,
+          208,
+          870,
+          1000
+        ],
+        "opaqueBounds": [
+          130,
+          208,
+          870,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          130.0,
+          208.0,
+          870.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 16.2514,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/fanera-berezovaia-fk-sort-4-4-nsh-1525kh1525-4mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-004",
+      "label": "Теплоизоляция",
+      "image": "Сайт/Референсы/Изображения товаров/teploizolyaciya/uteplitel-knauf-teplo-50-mm.webp",
+      "status": "site-current",
+      "packagedSha256": "d959aea727b1e4e5156fe21ac3275d942afe620133abf7c70b9b9954c1d363bd",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini-ts-037-aquastatik-0305m3-610kh1000kh50mm-10-sht-61m2/",
+        "image": "https://stroybaza-samara.ru/media/uploads/uteplitel/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini.webp",
+        "sha256": "d959aea727b1e4e5156fe21ac3275d942afe620133abf7c70b9b9954c1d363bd",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          224,
+          210,
+          778,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          224,
+          210,
+          778,
+          1000
+        ],
+        "opaqueBounds": [
+          225,
+          212,
+          776,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          224.0,
+          210.0,
+          778.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 49.2492,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini-ts-037-aquastatik-0305m3-610kh1000kh50mm-10-sht-61m2/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-005",
+      "label": "Строительные смеси",
+      "image": "Сайт/Референсы/Изображения товаров/stroitelnye-smesi/shtukaturka-yunis-teplon-30-kg.webp",
+      "status": "site-current",
+      "packagedSha256": "a65325a4090e1bd468388e8434102068494206138f2841048624ad7b20d4b9a5",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/iunis-teplon-shtukaturka-gipsovaia-30-kg/",
+        "image": "https://stroybaza-samara.ru/media/products/images/08-a65325a4090e.webp",
+        "sha256": "a65325a4090e1bd468388e8434102068494206138f2841048624ad7b20d4b9a5",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          202,
+          105,
+          796,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          203,
+          105,
+          795,
+          1000
+        ],
+        "opaqueBounds": [
+          204,
+          105,
+          794,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          203.0,
+          105.0,
+          795.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 54.697,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/iunis-teplon-shtukaturka-gipsovaia-30-kg/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-006",
+      "label": "Металлопрокат",
+      "image": "Сайт/Референсы/Изображения товаров/metalloprokat/setka-kladochnaya-50x50.webp",
+      "status": "site-current",
+      "packagedSha256": "e8f1678d8660e74ca0e62f558cd9e94d6d715520c6fd505c20e118eff1ad12a5",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/setka-kladochnaia-50x50kh4-mm-1x2-m/",
+        "image": "https://stroybaza-samara.ru/media/uploads/setka/setka-kladochnaya-50-50-nastroyker.ru.webp",
+        "sha256": "e8f1678d8660e74ca0e62f558cd9e94d6d715520c6fd505c20e118eff1ad12a5",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          144,
+          287,
+          856,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          144,
+          287,
+          856,
+          1000
+        ],
+        "opaqueBounds": [
+          144,
+          287,
+          856,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          144.0,
+          287.0,
+          856.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.0,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/setka-kladochnaia-50x50kh4-mm-1x2-m/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-007",
+      "label": "Пиломатериалы",
+      "image": "Сайт/Референсы/Изображения товаров/pilomaterialy/blok-haus-derevyannyy.webp",
+      "status": "visually-current",
+      "packagedSha256": "38ca6e0592b6a327b11b5c333c76d071adebebf4b7ae517897e3e98a49160a97",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/blok-khaus-0022kh009kh6-kategoriia-av/",
+        "image": "https://stroybaza-samara.ru/media/products/images/blok-haus-nastroyker.ru.webp",
+        "sha256": "7343a93997313ac7942f65f614f823e255b7e66dd19a92d4daf99bc223f4cabc",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          143,
+          188,
+          872,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          143,
+          188,
+          872,
+          1000
+        ],
+        "opaqueBounds": [
+          143,
+          188,
+          871,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          143.0,
+          188.0,
+          872.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.4167,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/blok-khaus-0022kh009kh6-kategoriia-av/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-008",
+      "label": "Стеновые материалы",
+      "image": "Сайт/Референсы/Изображения товаров/stenovye-materialy/kirpich-polnotelyy-krasnyy.webp",
+      "status": "visually-current",
+      "packagedSha256": "3e51f57331f191661da97695c2228459cbe2bea0e09f2d6e7e5d547fc7ee11e9",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/kirpich-polnotelyi-krasnyi-1nf-r60-250kh120kh65-mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/stenovye/8563.webp",
+        "sha256": "25d84637a09af60fed58f99ddd8f9fd3d0fa1b87ce26c4f4af3df96b88dad561",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          120,
+          204,
+          863,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          121,
+          204,
+          863,
+          1000
+        ],
+        "opaqueBounds": [
+          122,
+          206,
+          861,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          121.0,
+          204.0,
+          863.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.7739,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/kirpich-polnotelyi-krasnyi-1nf-r60-250kh120kh65-mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-009",
+      "label": "Обустройство участка",
+      "image": "Сайт/Референсы/Изображения товаров/blagoustrojstvo-uchastka/bordyur-betonnyy-seryy.webp",
+      "status": "visually-current",
+      "packagedSha256": "f0c53403a1ba73ed7d5a8b1e30a5db0218b9df8889e18eb814112b68565b71ee",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/bordiur-1000x200x80-mm-seryi/",
+        "image": "https://stroybaza-samara.ru/media/uploads/territoriya-plitka/st-0000050.webp",
+        "sha256": "67b43e3993a6f3240e4fc1a3c1bcb6029ca3f5860bddd7e7549db2ab108feb1d",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          87,
+          255,
+          928,
+          763
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          88,
+          255,
+          927,
+          763
+        ],
+        "opaqueBounds": [
+          89,
+          256,
+          926,
+          762
+        ],
+        "normalizedLayoutBounds": [
+          88.0,
+          255.0,
+          927.0,
+          763.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.3349,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/bordiur-1000x200x80-mm-seryi/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-010",
+      "label": "Гильза и втулка для химического анкера (aksessuary-prinadlezhnosti-dlya-himicheskih-ankero--gilza-dlya-himicheskogo-ankera)",
+      "image": "Сайт/Архив товарных референсов/Подкатегории/aksessuary-prinadlezhnosti-dlya-himicheskih-ankero--gilza-dlya-himicheskogo-ankera/plastikovaia-vtulka-12-kh-50-10-sht.webp",
+      "status": "retired-unavailable",
+      "packagedSha256": "40db3e6f15130afebe9ec907d9b20884e32b133e82a656d2caf7a1d2ece11df4",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/plastikovaia-vtulka-12-kh-50-10-sht/",
+        "image": null,
+        "sha256": null,
+        "checkedAt": "2026-11-26",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          21,
+          76,
+          674,
+          632
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          22,
+          76,
+          673,
+          631
+        ],
+        "opaqueBounds": [
+          23,
+          78,
+          672,
+          630
+        ],
+        "normalizedLayoutBounds": [
+          31.43,
+          108.57,
+          961.43,
+          901.43
+        ],
+        "alpha": true
+      },
+      "reason": "Исходная карточка вернула 404 в Самаре и Москве. Снят с активных эталонов; историческая картинка не задаёт текущий формат."
+    },
+    {
+      "id": "catalog-011",
+      "label": "Пистолет для химического анкера (aksessuary-prinadlezhnosti-dlya-himicheskih-ankero--pistolet-dlya-himicheskogo-ankera)",
+      "image": "Сайт/Архив товарных референсов/Подкатегории/aksessuary-prinadlezhnosti-dlya-himicheskih-ankero--pistolet-dlya-himicheskogo-ankera/ruchnoi-pistolet-dlia-kolbas-cfs-600-ml.webp",
+      "status": "retired-unavailable",
+      "packagedSha256": "9f12cb52f704fa85125554d207e2a4e50116eb0f9c3fad94047c2bf97bc1283b",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/ruchnoi-pistolet-dlia-kolbas-cfs-600-ml/",
+        "image": null,
+        "sha256": null,
+        "checkedAt": "2026-11-26",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          31,
+          119,
+          689,
+          595
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          31,
+          119,
+          688,
+          594
+        ],
+        "opaqueBounds": [
+          32,
+          120,
+          687,
+          594
+        ],
+        "normalizedLayoutBounds": [
+          44.29,
+          170.0,
+          982.86,
+          848.57
+        ],
+        "alpha": true
+      },
+      "reason": "Исходная карточка вернула 404 в Самаре и Москве. Снят с активных эталонов; историческая картинка не задаёт текущий формат."
+    },
+    {
+      "id": "catalog-012",
+      "label": "Шпилька резьбовая (aksessuary-prinadlezhnosti-dlya-himicheskih-ankero--shpilka-rezbovaya)",
+      "image": "Сайт/Архив товарных референсов/Подкатегории/aksessuary-prinadlezhnosti-dlya-himicheskih-ankero--shpilka-rezbovaya/shpilka-rezbovaia-metricheskaia-rawlplug.webp",
+      "status": "retired-unavailable",
+      "packagedSha256": "3389723bb2b2f2258b4ac6acd0830a70f7abf578d5f0c516ee6cd1dcaea389b3",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/shpilka-rezbovaia-metricheskaia-rawlplug/",
+        "image": null,
+        "sha256": null,
+        "checkedAt": "2026-11-26",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          37,
+          81,
+          674,
+          618
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          38,
+          81,
+          674,
+          618
+        ],
+        "opaqueBounds": [
+          39,
+          82,
+          673,
+          617
+        ],
+        "normalizedLayoutBounds": [
+          54.29,
+          115.71,
+          962.86,
+          882.86
+        ],
+        "alpha": true
+      },
+      "reason": "Исходная карточка вернула 404 в Самаре и Москве. Снят с активных эталонов; историческая картинка не задаёт текущий формат."
+    },
+    {
+      "id": "catalog-013",
+      "label": "Благоустройство (blagoustrojstvo-uchastka--blagoustrojstvo)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/blagoustrojstvo-uchastka--blagoustrojstvo/bordiur-1000x200x80-mm-seryi.webp",
+      "status": "visually-current",
+      "packagedSha256": "f0c53403a1ba73ed7d5a8b1e30a5db0218b9df8889e18eb814112b68565b71ee",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/bordiur-1000x200x80-mm-seryi/",
+        "image": "https://stroybaza-samara.ru/media/uploads/territoriya-plitka/st-0000050.webp",
+        "sha256": "67b43e3993a6f3240e4fc1a3c1bcb6029ca3f5860bddd7e7549db2ab108feb1d",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          87,
+          255,
+          928,
+          763
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          88,
+          255,
+          927,
+          763
+        ],
+        "opaqueBounds": [
+          89,
+          256,
+          926,
+          762
+        ],
+        "normalizedLayoutBounds": [
+          88.0,
+          255.0,
+          927.0,
+          763.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.3349,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/bordiur-1000x200x80-mm-seryi/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-014",
+      "label": "Колодцы и септики (blagoustrojstvo-uchastka--kolodcy-i-septiki)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/blagoustrojstvo-uchastka--kolodcy-i-septiki/kryshka-na-kolodets-polimer-peschanaia-460-mm.webp",
+      "status": "visually-current",
+      "packagedSha256": "e452f507351ff8f6622063f7d663c062b80fabce16aae583a2ca1cb90e81d3f5",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/kryshka-na-kolodets-polimer-peschanaia-460-mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/territoriya-plitka/st-0000037.webp",
+        "sha256": "d33a5cf8fe4b12e19a81982da737ed59e05b87354ba790bb7961f6bda948ebd8",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          126,
+          212,
+          876,
+          803
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          127,
+          213,
+          876,
+          802
+        ],
+        "opaqueBounds": [
+          128,
+          215,
+          874,
+          800
+        ],
+        "normalizedLayoutBounds": [
+          127.0,
+          213.0,
+          876.0,
+          802.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.3043,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/kryshka-na-kolodets-polimer-peschanaia-460-mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-015",
+      "label": "Сыпучие материалы (blagoustrojstvo-uchastka--sypuchie-materialy)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/blagoustrojstvo-uchastka--sypuchie-materialy/shcheben-granitnyi-5-20-mm-25-kg.webp",
+      "status": "visually-current",
+      "packagedSha256": "f94d4a9ec0ff6a5ee4ab0f9270725cb7ed4d69d3c4ae2d062bb61517cf833377",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/shcheben-granitnyi-5-20-mm-25-kg/",
+        "image": "https://stroybaza-samara.ru/media/uploads/territoriya-plitka/st-0000054.webp",
+        "sha256": "ef62159267588f50f53f0dbdc57866069491020ba86a22d32dff3971dc14c2ca",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          197,
+          103,
+          803,
+          892
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          197,
+          104,
+          802,
+          891
+        ],
+        "opaqueBounds": [
+          198,
+          105,
+          801,
+          890
+        ],
+        "normalizedLayoutBounds": [
+          197.0,
+          104.0,
+          802.0,
+          891.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.4919,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/shcheben-granitnyi-5-20-mm-25-kg/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-016",
+      "label": "Фасадные панели Docke (fasadnaya-otdelka--fasadnye-paneli-docke-dyoke)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/fasadnaya-otdelka--fasadnye-paneli-docke-dyoke/docke-panel-fasadnaia-slanets-shamoni-038m2-deke.webp",
+      "status": "visually-current",
+      "packagedSha256": "519aafe6ec90b4df1b48ad36aaa4b09f2be78e1472fce35c24121f20b6798e75",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/docke-panel-fasadnaia-slanets-shamoni-038m2-deke/",
+        "image": "https://stroybaza-samara.ru/media/products/images/docke-slanec-shamoni-nastroyker.ru_k3TV7WL.png",
+        "sha256": "8d805ee63418a78c16bb7fa046929f089d50c0b38ba3f2ffcb488294d76e9341",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          101,
+          125,
+          873,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          103,
+          126,
+          873,
+          1000
+        ],
+        "opaqueBounds": [
+          104,
+          127,
+          872,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          103.0,
+          126.0,
+          873.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.7443,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/docke-panel-fasadnaia-slanets-shamoni-038m2-deke/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-017",
+      "label": "Сайдинг Grand Line (fasadnaya-otdelka--sajding-grand-line-grand-lajn)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/fasadnaya-otdelka--sajding-grand-line-grand-lajn/saiding-korabelnaia-doska-grand-line-color-plus-temno-bezhevyi-30m.webp",
+      "status": "visually-current",
+      "packagedSha256": "cc543a0bb21984b4a97bb5dd04f9d1ab1f6b660797e0c309a3cda22a70aa7a92",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/saiding-korabelnaia-doska-grand-line-color-plus-temno-bezhevyi-30m/",
+        "image": "https://stroybaza-samara.ru/media/uploads/fasadnaya-otdelka/82554.webp",
+        "sha256": "e4bcf6b4a3052886b3c2c1f719162d901304845727dae32409bfd15ec604c043",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          31,
+          94,
+          898,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          105,
+          94,
+          894,
+          1000
+        ],
+        "opaqueBounds": [
+          108,
+          94,
+          894,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          105.0,
+          94.0,
+          894.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.676,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/saiding-korabelnaia-doska-grand-line-color-plus-temno-bezhevyi-30m/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-018",
+      "label": "Гибкая черепица Docke (gibkaya-cherepica--gibkaya-cherepica-docke-dyoke)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/gibkaya-cherepica--gibkaya-cherepica-docke-dyoke/gibkaia-cherepitsa-docke-europa-slate-seryi.webp",
+      "status": "visually-current",
+      "packagedSha256": "3ad32fb34f4b004ee21fdd827a1d7bf631086f8260fdde9b025dcc18b5a00916",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/gibkaia-cherepitsa-docke-europa-slate-seryi/",
+        "image": "https://stroybaza-samara.ru/media/products/images/Docke-evropa-slate-ser-nastroyker.ru.png",
+        "sha256": "58fc62f6fae2331d63fd14fedd759fc5cddee41c73bbce61f8e5747cd9a14aea",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          129,
+          215,
+          872,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          129,
+          215,
+          872,
+          1000
+        ],
+        "opaqueBounds": [
+          129,
+          215,
+          872,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          129.0,
+          215.0,
+          872.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.6897,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/gibkaia-cherepitsa-docke-europa-slate-seryi/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-019",
+      "label": "Гибкая черепица Shinglas (gibkaya-cherepica--gibkaya-cherepica-shinglas-shinglas)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/gibkaya-cherepica--gibkaya-cherepica-shinglas-shinglas/gibkaia-cherepitsa-shinglas-kontinent-evropa-shinglas-15m2.webp",
+      "status": "visually-current",
+      "packagedSha256": "4d8b489337abd11ac4b1bddd54406610cd6545f47563fccecfc270cb917546af",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/gibkaia-cherepitsa-shinglas-kontinent-evropa-shinglas-15m2/",
+        "image": "https://stroybaza-samara.ru/media/products/images/Shinglas-kontinent-europe-nastroyker.ru.png",
+        "sha256": "54ccb1fb17ba7f331fd13572109b98a4c1141af5040f6966e483665f7adb0ce3",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          118,
+          208,
+          861,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          118,
+          208,
+          861,
+          1000
+        ],
+        "opaqueBounds": [
+          118,
+          208,
+          861,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          118.0,
+          208.0,
+          861.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.7707,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/gibkaia-cherepitsa-shinglas-kontinent-evropa-shinglas-15m2/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-020",
+      "label": "Комплектующие Docke (gibkaya-cherepica--komplektuyushie-docke)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/gibkaya-cherepica--komplektuyushie-docke/vykhod-kanalizatsionnyi-kolpak-docke-premium-izl-110-500-krasnyi.webp",
+      "status": "visually-current",
+      "packagedSha256": "4e6029bf065480a3a000bc1f03d3b32101bc4603c10ee235848cda121eb1e24f",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/vykhod-kanalizatsionnyi-kolpak-docke-premium-izl-110-500-krasnyi/",
+        "image": "https://stroybaza-samara.ru/media/uploads/krovelnye-materialy/db-0072.webp",
+        "sha256": "852a2a155af8c95840dc1b44cb6f5701194567c8c2112f821f703d21d1218189",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          252,
+          266,
+          755,
+          729
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          252,
+          267,
+          754,
+          729
+        ],
+        "opaqueBounds": [
+          253,
+          268,
+          753,
+          728
+        ],
+        "normalizedLayoutBounds": [
+          252.0,
+          267.0,
+          754.0,
+          729.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.2637,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/vykhod-kanalizatsionnyi-kolpak-docke-premium-izl-110-500-krasnyi/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-021",
+      "label": "Комплектующие Shinglas (gibkaya-cherepica--komplektuyushie-shinglas)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/gibkaya-cherepica--komplektuyushie-shinglas/prokhodnoi-element-dlia-krovli-tekhnonikol-shinglas-chernyi.webp",
+      "status": "visually-current",
+      "packagedSha256": "3e18d82459186ffcf46d500c12f929812f6576ba312f956a41c9f2908f16e84d",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/prokhodnoi-element-dlia-krovli-tekhnonikol-shinglas-chernyi/",
+        "image": "https://stroybaza-samara.ru/media/uploads/krovelnye-materialy/db-0168.webp",
+        "sha256": "611a00638ebdc4c2a63f99f6f19cdee429c51f35b80e96c6d4afd7e24b514bde",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          172,
+          247,
+          838,
+          789
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          173,
+          249,
+          836,
+          784
+        ],
+        "opaqueBounds": [
+          174,
+          250,
+          835,
+          783
+        ],
+        "normalizedLayoutBounds": [
+          173.0,
+          249.0,
+          836.0,
+          784.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.2374,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/prokhodnoi-element-dlia-krovli-tekhnonikol-shinglas-chernyi/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-022",
+      "label": "Аксессуары для хим анкера (krepezh--aksessuary-prinadlezhnosti-dlya-himicheskih-ankero)",
+      "image": "Сайт/Архив товарных референсов/Подкатегории/krepezh--aksessuary-prinadlezhnosti-dlya-himicheskih-ankero/plastikovaia-vtulka-12-kh-50-10-sht.webp",
+      "status": "retired-unavailable",
+      "packagedSha256": "40db3e6f15130afebe9ec907d9b20884e32b133e82a656d2caf7a1d2ece11df4",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/plastikovaia-vtulka-12-kh-50-10-sht/",
+        "image": null,
+        "sha256": null,
+        "checkedAt": "2026-11-26",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          21,
+          76,
+          674,
+          632
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          22,
+          76,
+          673,
+          631
+        ],
+        "opaqueBounds": [
+          23,
+          78,
+          672,
+          630
+        ],
+        "normalizedLayoutBounds": [
+          31.43,
+          108.57,
+          961.43,
+          901.43
+        ],
+        "alpha": true
+      },
+      "reason": "Исходная карточка вернула 404 в Самаре и Москве. Снят с активных эталонов; историческая картинка не задаёт текущий формат."
+    },
+    {
+      "id": "catalog-023",
+      "label": "Химические анкеры (krepezh--himicheskie-ankery)",
+      "image": "Сайт/Архив товарных референсов/Подкатегории/krepezh--himicheskie-ankery/vinilesterovaia-smola-400-ml-zimnii-khimicheskii-anker-kartridzh.webp",
+      "status": "retired-unavailable",
+      "packagedSha256": "c0f659a9027b9a97f3ec36137a9b88cc06eb49096825e5a61cc874173504e7f4",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/vinilesterovaia-smola-400-ml-zimnii-khimicheskii-anker-kartridzh/",
+        "image": null,
+        "sha256": null,
+        "checkedAt": "2026-11-26",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          220,
+          68,
+          480,
+          700
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          243,
+          81,
+          457,
+          700
+        ],
+        "opaqueBounds": [
+          245,
+          82,
+          455,
+          700
+        ],
+        "normalizedLayoutBounds": [
+          347.14,
+          115.71,
+          652.86,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "reason": "Исходная карточка вернула 404 в Самаре и Москве. Снят с активных эталонов; историческая картинка не задаёт текущий формат."
+    },
+    {
+      "id": "catalog-024",
+      "label": "Механические анкеры (krepezh--mehanicheskie-ankery)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krepezh--mehanicheskie-ankery/hbm-10x100-raspornyi-anker-gilza-graf.webp",
+      "status": "visually-current",
+      "packagedSha256": "7a4414086ac8d82873a0cdc42b0e439ed6fa90f56d79a686293fb73f15c92274",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/hbm-10x100-raspornyi-anker-gilza-graf/",
+        "image": "https://stroybaza-samara.ru/media/products/images/hbm_s8IYtZq.png_ri5i0Ld.png",
+        "sha256": "866413ce854c75ea12ddabce0905894cfb6e693529b2db80e9e6571969901cfb",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          37,
+          296,
+          674,
+          393
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          38,
+          296,
+          673,
+          393
+        ],
+        "opaqueBounds": [
+          39,
+          298,
+          672,
+          392
+        ],
+        "normalizedLayoutBounds": [
+          54.29,
+          422.86,
+          961.43,
+          561.43
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1535,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/hbm-10x100-raspornyi-anker-gilza-graf/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-025",
+      "label": "Общестроительный крепеж (krepezh--obshestroitelnyj-krepezh)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krepezh--obshestroitelnyj-krepezh/zabivnoi-fasadnyi-diubel-so-stalnym-gvozdem-dlia-teploizoliatsii-rawlplug-9.webp",
+      "status": "visually-current",
+      "packagedSha256": "24436d2baf2e2e5141b5a13029354c204feb84f273985cf1ec70f11875a9e5ad",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/zabivnoi-fasadnyi-diubel-so-stalnym-gvozdem-dlia-teploizoliatsii-rawlplug-9/",
+        "image": "https://stroybaza-samara.ru/media/products/images/tfix-8m_SvmURGt.png.png",
+        "sha256": "59b0455a7a1cd5951ecc381adc0ea329be7408cc0e7de3560e7ea633f2eced79",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          48,
+          100,
+          628,
+          596
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          49,
+          100,
+          627,
+          596
+        ],
+        "opaqueBounds": [
+          50,
+          101,
+          626,
+          595
+        ],
+        "normalizedLayoutBounds": [
+          70.0,
+          142.86,
+          895.71,
+          851.43
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.2397,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/zabivnoi-fasadnyi-diubel-so-stalnym-gvozdem-dlia-teploizoliatsii-rawlplug-9/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-026",
+      "label": "Доборные элементы кровли (krovelnye-materialy--dobornye-elementy-dlya-krovli)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krovelnye-materialy--dobornye-elementy-dlya-krovli/snegozaderzhatel-shokolad.webp",
+      "status": "visually-current",
+      "packagedSha256": "4187ac1d3a64d7bfd3afe03006acbfaa3beeca1f0829c714e6a4815c2398c7d9",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/snegozaderzhatel-shokolad/",
+        "image": "https://stroybaza-samara.ru/media/products/images/snegozaderzhivatel.png",
+        "sha256": "6b07ccf05a3f1f910c9091dc5cd59d61a1d0d7cab420aa6fa9df62616a7847b4",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1008,
+          1008
+        ],
+        "alphaBounds": [
+          0,
+          319,
+          989,
+          1008
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          26,
+          320,
+          988,
+          717
+        ],
+        "opaqueBounds": [
+          27,
+          321,
+          986,
+          716
+        ],
+        "normalizedLayoutBounds": [
+          25.79,
+          317.46,
+          980.16,
+          711.31
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1949,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/snegozaderzhatel-shokolad/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-027",
+      "label": "Гибкая черепица (krovelnye-materialy--gibkaya-cherepica)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krovelnye-materialy--gibkaya-cherepica/podkladochnyi-kover-docke-pie-standart-1kh15m.webp",
+      "status": "visually-current",
+      "packagedSha256": "aa844130a12df82bc0cce8a0d354410b68cbb0cb4980e021c46aecb49be669a4",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/podkladochnyi-kover-docke-pie-standart-1kh15m/",
+        "image": "https://stroybaza-samara.ru/media/products/images/kover.png",
+        "sha256": "e4a1da8b2e2a3a8f3b596e6a4b9db4cbb5175dce71fd91cc43dc25bc2ece5b7e",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1008,
+          1008
+        ],
+        "alphaBounds": [
+          0,
+          165,
+          582,
+          1008
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          429,
+          166,
+          580,
+          834
+        ],
+        "opaqueBounds": [
+          431,
+          166,
+          578,
+          833
+        ],
+        "normalizedLayoutBounds": [
+          425.6,
+          164.68,
+          575.4,
+          827.38
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1091,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/podkladochnyi-kover-docke-pie-standart-1kh15m/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-028",
+      "label": "Металлочерепица (krovelnye-materialy--metallocherepica)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krovelnye-materialy--metallocherepica/metallocherepitsa-monterrei-poliester-05-ral-rr32-temno-korichnevyi.webp",
+      "status": "visually-current",
+      "packagedSha256": "457f8aea7e2437b4b5523023b5ee4b8b6fe5d50f53ccb6f7755c09f0506525fa",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/metallocherepitsa-monterrei-poliester-05-ral-rr32-temno-korichnevyi/",
+        "image": "https://stroybaza-samara.ru/media/products/images/Monterey-metallocherepica-RR32-nastroyker.ru__GDjGViA.png",
+        "sha256": "69cc97054c0c4672375670e99dd16ecdaeec60992d7d12fdd211ae0fad52f752",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          87,
+          213,
+          875,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          87,
+          213,
+          875,
+          1000
+        ],
+        "opaqueBounds": [
+          88,
+          214,
+          874,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          87.0,
+          213.0,
+          875.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.687,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/metallocherepitsa-monterrei-poliester-05-ral-rr32-temno-korichnevyi/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-029",
+      "label": "Наплавляемая кровля (krovelnye-materialy--naplavlyaemaya-krovlya)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krovelnye-materialy--naplavlyaemaya-krovlya/bipol-ekp-tekhnonikol-10kh1-m-slanets-seryi.webp",
+      "status": "site-current",
+      "packagedSha256": "44f98ed6aff38c2139ab42bae03f6f88409b4f1ea3e5f1568422757c4711754d",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/bipol-ekp-tekhnonikol-10kh1-m-slanets-seryi/",
+        "image": "https://stroybaza-samara.ru/media/products/images/bipol_MxiDIlK.webp",
+        "sha256": "44f98ed6aff38c2139ab42bae03f6f88409b4f1ea3e5f1568422757c4711754d",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          365,
+          208,
+          635,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          365,
+          208,
+          635,
+          1000
+        ],
+        "opaqueBounds": [
+          365,
+          209,
+          634,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          365.0,
+          208.0,
+          635.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 27.3772,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/bipol-ekp-tekhnonikol-10kh1-m-slanets-seryi/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-030",
+      "label": "Профнастил (krovelnye-materialy--profnastil)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krovelnye-materialy--profnastil/profnastil-s8-04-dlina-2m-ocinkovannyj.webp",
+      "status": "visually-current",
+      "packagedSha256": "3c361f22f5c9d1e69f27b95e4faff0383730814567ecd181d490759442771937",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/profnastil-s8-04-dlina-2m-ocinkovannyj/",
+        "image": "https://stroybaza-samara.ru/media/products/images/ocinkov.webp",
+        "sha256": "7454d5a4c21dde4d11c578f8116ada84bd3ce6cdf237f213023742eaa1757598",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1024,
+          1024
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          161,
+          198,
+          862,
+          1024
+        ],
+        "opaqueBounds": [
+          163,
+          200,
+          860,
+          1024
+        ],
+        "normalizedLayoutBounds": [
+          157.23,
+          193.36,
+          841.8,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.6591,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/profnastil-s8-04-dlina-2m-ocinkovannyj/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-031",
+      "label": "Рубероид, мастика и праймер (krovelnye-materialy--ruberoid-mastika-i-prajmer)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krovelnye-materialy--ruberoid-mastika-i-prajmer/mastika-bitumnaia-docke-108-kg.webp",
+      "status": "visually-current",
+      "packagedSha256": "08177c43b84c3cefa28abbfb26f7d47682aad18c2b003708ff5408181cdcf328",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/mastika-bitumnaia-docke-108-kg/",
+        "image": "https://stroybaza-samara.ru/media/uploads/krovelnye-materialy/db-0102.webp",
+        "sha256": "800c78348915f4dabc452b057a7481d06d555cbae1023e9bac2c866075e05950",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          148,
+          212,
+          853,
+          860
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          148,
+          212,
+          853,
+          860
+        ],
+        "opaqueBounds": [
+          149,
+          213,
+          852,
+          859
+        ],
+        "normalizedLayoutBounds": [
+          148.0,
+          212.0,
+          853.0,
+          860.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.5352,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/mastika-bitumnaia-docke-108-kg/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-032",
+      "label": "Софиты (krovelnye-materialy--sofity)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krovelnye-materialy--sofity/docke-t4-sofit-sploshnoi-grafit-deke-standart.webp",
+      "status": "visually-current",
+      "packagedSha256": "cc6030b645096bceb44d361f87414631f9da5d2f376e024860b9a9ac1cfd18e4",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/docke-t4-sofit-sploshnoi-grafit-deke-standart/",
+        "image": "https://stroybaza-samara.ru/media/products/images/docke-standart-grafit-nastroyker.ru.png",
+        "sha256": "eeb50201d96a4d9cabf78fb3ef36b1e24f5d5bdc5cce72b5e9a721211540c64b",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          257,
+          107,
+          799,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          257,
+          107,
+          799,
+          1000
+        ],
+        "opaqueBounds": [
+          258,
+          108,
+          797,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          257.0,
+          107.0,
+          799.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.3808,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/docke-t4-sofit-sploshnoi-grafit-deke-standart/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-033",
+      "label": "Водосток (krovelnye-materialy--vodostok)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/krovelnye-materialy--vodostok/kronshtein-zheloba-shokolad-dlia-vodostoka-plastik.webp",
+      "status": "visually-current",
+      "packagedSha256": "fa762913af985707fdb91e09a3d150573228e00382e3d1d19b79cf24238f6682",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/kronshtein-zheloba-shokolad-dlia-vodostoka-plastik/",
+        "image": "https://stroybaza-samara.ru/media/uploads/vodostok/00000000130.png",
+        "sha256": "2bcb03efc591a63859767014c8fd143cb65719be694fb320b01597fe628b457c",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          407,
+          206,
+          588,
+          782
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          407,
+          206,
+          588,
+          782
+        ],
+        "opaqueBounds": [
+          408,
+          207,
+          587,
+          781
+        ],
+        "normalizedLayoutBounds": [
+          407.0,
+          206.0,
+          588.0,
+          782.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.0395,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/kronshtein-zheloba-shokolad-dlia-vodostoka-plastik/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-034",
+      "label": "ЦСП (listovye-materialy--cementno-struzhechnaya-plita-csp)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/listovye-materialy--cementno-struzhechnaya-plita-csp/tsementno-struzhechnaia-plita-tssp-3200kh1250-10-mm.webp",
+      "status": "site-current",
+      "packagedSha256": "9433617cdd2fcf29cace75135dcd75731f2178afc6af646ca783c762c74fa02e",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/tsementno-struzhechnaia-plita-tssp-3200kh1250-10-mm/",
+        "image": "https://stroybaza-samara.ru/media/products/images/csp-1250x10-mm_PvwNCQe.webp",
+        "sha256": "9433617cdd2fcf29cace75135dcd75731f2178afc6af646ca783c762c74fa02e",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          126,
+          208,
+          874,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          126,
+          208,
+          874,
+          1000
+        ],
+        "opaqueBounds": [
+          127,
+          208,
+          873,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          126.0,
+          208.0,
+          874.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 20.1073,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/tsementno-struzhechnaia-plita-tssp-3200kh1250-10-mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-035",
+      "label": "ДСП (listovye-materialy--dsp-drevesno-struzhechnaya-plita)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/listovye-materialy--dsp-drevesno-struzhechnaya-plita/drevesno-struzhechnaia-plita-dsp-shlifovannaia-r2-2440-1830-16mm.webp",
+      "status": "site-current",
+      "packagedSha256": "e8b22dd1a741a89f72b683c19c0ed7a60bbd159ec5684ca8032ed34019f8d34c",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/drevesno-struzhechnaia-plita-dsp-shlifovannaia-r2-2440-1830-16mm/",
+        "image": "https://stroybaza-samara.ru/media/products/images/dsp-shlifovannaya-16-mm_ChlXlzM.webp",
+        "sha256": "e8b22dd1a741a89f72b683c19c0ed7a60bbd159ec5684ca8032ed34019f8d34c",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          126,
+          208,
+          874,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          126,
+          208,
+          874,
+          1000
+        ],
+        "opaqueBounds": [
+          126,
+          208,
+          874,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          126.0,
+          208.0,
+          874.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 28.4738,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/drevesno-struzhechnaia-plita-dsp-shlifovannaia-r2-2440-1830-16mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-036",
+      "label": "Фанера (listovye-materialy--fanera)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/listovye-materialy--fanera/fanera-berezovaia-fk-sort-4-4-nsh-1525kh1525-4mm.webp",
+      "status": "site-current",
+      "packagedSha256": "462f386a3470e6f3f99be94c23053a33ced659bb5efd0a3dbdf07f6b0a197532",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/fanera-berezovaia-fk-sort-4-4-nsh-1525kh1525-4mm/",
+        "image": "https://stroybaza-samara.ru/media/products/images/fanera-fk-4-4-nsh-1525x1525-4-mm_g0atas9.webp",
+        "sha256": "462f386a3470e6f3f99be94c23053a33ced659bb5efd0a3dbdf07f6b0a197532",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          130,
+          208,
+          870,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          130,
+          208,
+          870,
+          1000
+        ],
+        "opaqueBounds": [
+          130,
+          208,
+          870,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          130.0,
+          208.0,
+          870.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 16.2514,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/fanera-berezovaia-fk-sort-4-4-nsh-1525kh1525-4mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-037",
+      "label": "ГКЛ (listovye-materialy--gipsokartonnyj-list-gkl)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/listovye-materialy--gipsokartonnyj-list-gkl/gipsokarton-gkl-95-mm-2500kh1200.webp",
+      "status": "site-current",
+      "packagedSha256": "672af428b11cf907ee57cc19957e0d0e82137d3839dc5ecb96e37e60937c6e50",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/gipsokarton-gkl-95-mm-2500kh1200/",
+        "image": "https://stroybaza-samara.ru/media/products/images/gkl-grey-pluk-9-5-2500x1200-mm_mZaLkUz.webp",
+        "sha256": "672af428b11cf907ee57cc19957e0d0e82137d3839dc5ecb96e37e60937c6e50",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          127,
+          208,
+          873,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          127,
+          208,
+          873,
+          1000
+        ],
+        "opaqueBounds": [
+          127,
+          208,
+          873,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          127.0,
+          208.0,
+          873.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 20.1965,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/gipsokarton-gkl-95-mm-2500kh1200/",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    {
+      "id": "catalog-038",
+      "label": "OSB-плита (ОСБ) (listovye-materialy--osb-plita-osb)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/listovye-materialy--osb-plita-osb/osb-3-osp-plita-2500kh1250kh6-mm.webp",
+      "status": "site-current",
+      "packagedSha256": "a3f81b22361179d15e1d2460125268238403e148e051c27d89faee87fcad56c3",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/osb-3-osp-plita-2500kh1250kh6-mm/",
+        "image": "https://stroybaza-samara.ru/media/products/images/osb-three-osb-neutral-1250-6-mm.webp",
+        "sha256": "a3f81b22361179d15e1d2460125268238403e148e051c27d89faee87fcad56c3",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          128,
+          208,
+          872,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          128,
+          208,
+          872,
+          1000
+        ],
+        "opaqueBounds": [
+          129,
+          208,
+          871,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          128.0,
+          208.0,
+          872.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 20.5597,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/osb-3-osp-plita-2500kh1250kh6-mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-039",
+      "label": "Профиль для гипсокартона (listovye-materialy--profil-dlya-gipsokartona)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/listovye-materialy--profil-dlya-gipsokartona/udlinitel-profilei-60kh27-mm-006-mm.webp",
+      "status": "visually-current",
+      "packagedSha256": "66e7c75d4b35ec9cc2834f8583b82bc938d806324d6a1f5eb952061dfa88af1a",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/udlinitel-profilei-60kh27-mm-006-mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/listovye-materialy/profile-1001015.webp",
+        "sha256": "2b48f55345476ea8ef0131cb84a39db0d3754d764d646c0b032d3279b2952c67",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "opaqueBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          0.0,
+          0.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha": false
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1619,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/udlinitel-profilei-60kh27-mm-006-mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-040",
+      "label": "Анкер-болт (mehanicheskie-ankery--anker-bolt)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/mehanicheskie-ankery--anker-bolt/anker-bolt-safetyplus-s-shestigrannoi-golovkoi-rawlplug-9.webp",
+      "status": "visually-current",
+      "packagedSha256": "b77b8d9965010fcb865fe8003ef4f758f2bd967687f95662f512e6bf4bb52fb7",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/anker-bolt-safetyplus-s-shestigrannoi-golovkoi-rawlplug-9/",
+        "image": "https://stroybaza-samara.ru/media/products/images/r-spl.png.png",
+        "sha256": "34c2845b81206a2d9378cb3547964448aab344a43daa05c1c23e93905b44979c",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          39,
+          81,
+          686,
+          624
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          39,
+          82,
+          686,
+          624
+        ],
+        "opaqueBounds": [
+          41,
+          83,
+          684,
+          623
+        ],
+        "normalizedLayoutBounds": [
+          55.71,
+          117.14,
+          980.0,
+          891.43
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.2859,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/anker-bolt-safetyplus-s-shestigrannoi-golovkoi-rawlplug-9/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-041",
+      "label": "Анкер клиновой (mehanicheskie-ankery--anker-klinovoj)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/mehanicheskie-ankery--anker-klinovoj/wam-w-m6kh65-klinovoi-anker-shpilka-graf.webp",
+      "status": "visually-current",
+      "packagedSha256": "84c5614ee6de218b4d36e76e766c75e775893d3b451a4fa89639fea3e2d1abc2",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/wam-w-m6kh65-klinovoi-anker-shpilka-graf/",
+        "image": "https://stroybaza-samara.ru/media/products/images/graf_1_cDf2HEo.png_fuESJNh.png",
+        "sha256": "24b8e98336d3b18a2d4676e3c597196f63b0acb40d0601c0f04e2a6159ae8a02",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          31,
+          289,
+          657,
+          416
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          32,
+          289,
+          657,
+          416
+        ],
+        "opaqueBounds": [
+          33,
+          290,
+          656,
+          414
+        ],
+        "normalizedLayoutBounds": [
+          45.71,
+          412.86,
+          938.57,
+          594.29
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1896,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/wam-w-m6kh65-klinovoi-anker-shpilka-graf/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-042",
+      "label": "Анкер рамный (mehanicheskie-ankery--anker-ramnyj)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/mehanicheskie-ankery--anker-ramnyj/mf-ramnyi-anker-10-72-graf.webp",
+      "status": "visually-current",
+      "packagedSha256": "9df2be46bd1670a09838d40798d0596e82aa06608d3d65d734b94cc808f67a30",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/mf-ramnyi-anker-10-72-graf/",
+        "image": "https://stroybaza-samara.ru/media/products/images/mf.png_9DLlUv2.png",
+        "sha256": "f3261aa38aa63d1d2900fb535316381ed6177ae70fb457ce680128face9c5839",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          36,
+          311,
+          672,
+          376
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          36,
+          311,
+          671,
+          376
+        ],
+        "opaqueBounds": [
+          37,
+          312,
+          671,
+          376
+        ],
+        "normalizedLayoutBounds": [
+          51.43,
+          444.29,
+          958.57,
+          537.14
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1258,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/mf-ramnyi-anker-10-72-graf/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-043",
+      "label": "Анкер распорный (mehanicheskie-ankery--anker-raspornyj)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/mehanicheskie-ankery--anker-raspornyj/hlc-l-12x120-raspornyi-anker-gilza-graf.webp",
+      "status": "visually-current",
+      "packagedSha256": "9f078a4fcb623d4aa0730b0963c806dac85a5fd97357807b81eae14d4c958f6c",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/hlc-l-12x120-raspornyi-anker-gilza-graf/",
+        "image": "https://stroybaza-samara.ru/media/products/images/hlc-l_bXedQb2.png_2PVMMWM.png",
+        "sha256": "798cf8dd90464524d27836aa8be0d770d440018833c7dfbacb4765da30c203c9",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          20,
+          296,
+          683,
+          389
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          20,
+          297,
+          683,
+          389
+        ],
+        "opaqueBounds": [
+          21,
+          298,
+          682,
+          388
+        ],
+        "normalizedLayoutBounds": [
+          28.57,
+          424.29,
+          975.71,
+          555.71
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1398,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/hlc-l-12x120-raspornyi-anker-gilza-graf/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-044",
+      "label": "Анкер-шуруп (mehanicheskie-ankery--anker-shurup)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/mehanicheskie-ankery--anker-shurup/nus-f-anker-shurup-graf-10kh100-100.webp",
+      "status": "visually-current",
+      "packagedSha256": "34be7e4bf74a396f1c5604a729b5aeb658cfdc6c93cc3cf2763abb0d35aba7ae",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/nus-f-anker-shurup-graf-10kh100-100/",
+        "image": "https://stroybaza-samara.ru/media/products/images/D0BDus-f_EvK25E0.png_xLMnUS0.png",
+        "sha256": "c3885f9855a3b3ea9cc517ce357f2c5f0c25014a226fe447e30232130bafceef",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          39,
+          291,
+          680,
+          395
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          39,
+          291,
+          680,
+          394
+        ],
+        "opaqueBounds": [
+          40,
+          292,
+          679,
+          394
+        ],
+        "normalizedLayoutBounds": [
+          55.71,
+          415.71,
+          971.43,
+          562.86
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1385,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/nus-f-anker-shurup-graf-10kh100-100/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-045",
+      "label": "Анкер забивной (mehanicheskie-ankery--anker-zabivnoj)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/mehanicheskie-ankery--anker-zabivnoj/hilti-zabivnoi-anker-hkv-m16x65-25sht.webp",
+      "status": "visually-current",
+      "packagedSha256": "dbd035cbab925f4050840a9eb09b5da225b194001ad50916a891e046f2f95f5b",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/hilti-zabivnoi-anker-hkv-m16x65-25sht/",
+        "image": "https://stroybaza-samara.ru/media/products/images/9529071173662.webp_GxdVZQg.webp",
+        "sha256": "13596d81c003a00a569c9791469458d7dde2f30088b929f31ca4e9aa45cbf6eb",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1072,
+          310
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1072,
+          310
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          0,
+          0,
+          1072,
+          310
+        ],
+        "opaqueBounds": [
+          0,
+          0,
+          1072,
+          310
+        ],
+        "normalizedLayoutBounds": [
+          0.0,
+          0.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha": false
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 1.6829,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/hilti-zabivnoi-anker-hkv-m16x65-25sht/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-046",
+      "label": "Фасадный дюбель (mehanicheskie-ankery--fasadnyj-dyubel)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/mehanicheskie-ankery--fasadnyj-dyubel/fasadnyi-diubel-tsx-pro-10kh120-100-graf.webp",
+      "status": "visually-current",
+      "packagedSha256": "5ec067cb00e775769e6fb511ccfd9e3673fd57e007174f3cfe307e558e69541a",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/fasadnyi-diubel-tsx-pro-10kh120-100-graf/",
+        "image": "https://stroybaza-samara.ru/media/products/images/tsx-pro_DHtnQT9.png_yOSwem9.png",
+        "sha256": "d75d6fe75a20fd2fe689c36ce2801f3f7646f81877e5d165a889390d2f902ea5",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          34,
+          318,
+          660,
+          381
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          34,
+          318,
+          660,
+          381
+        ],
+        "opaqueBounds": [
+          35,
+          319,
+          658,
+          379
+        ],
+        "normalizedLayoutBounds": [
+          48.57,
+          454.29,
+          942.86,
+          544.29
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.0929,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/fasadnyi-diubel-tsx-pro-10kh120-100-graf/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-047",
+      "label": "Арматура (metalloprokat--armatura)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/metalloprokat--armatura/armatura-6-gost-r-52544-2006-a500s-6m.webp",
+      "status": "site-current",
+      "packagedSha256": "0665099038fe9a30bc645c8d21d76de6c0daa922e27856089545b4f1789b9935",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/armatura-6-gost-r-52544-2006-a500s-6m/",
+        "image": "https://stroybaza-samara.ru/media/uploads/armatura/armatura-6-nastroyker.ru.webp",
+        "sha256": "0665099038fe9a30bc645c8d21d76de6c0daa922e27856089545b4f1789b9935",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          296,
+          262,
+          716,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          296,
+          262,
+          716,
+          1000
+        ],
+        "opaqueBounds": [
+          297,
+          263,
+          715,
+          999
+        ],
+        "normalizedLayoutBounds": [
+          296.0,
+          262.0,
+          716.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.1217,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/armatura-6-gost-r-52544-2006-a500s-6m/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-048",
+      "label": "Лист металлический (metalloprokat--list-metallicheskij)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/metalloprokat--list-metallicheskij/gladkii-list-125m-045mm-otsinkovannyi.webp",
+      "status": "site-current",
+      "packagedSha256": "c63942763e2ef63b85ea6b441ef08965b12146e9716e9864711dfeb2142ad6cb",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/gladkii-list-125m-045mm-otsinkovannyi/",
+        "image": "https://stroybaza-samara.ru/media/uploads/gladkiy-list/list-metall-ocinkovany-nastroyker.ru.webp",
+        "sha256": "c63942763e2ef63b85ea6b441ef08965b12146e9716e9864711dfeb2142ad6cb",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          0,
+          233,
+          1000,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          0,
+          266,
+          1000,
+          1000
+        ],
+        "opaqueBounds": [
+          118,
+          266,
+          882,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          0.0,
+          266.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.0443,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/gladkii-list-125m-045mm-otsinkovannyi/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-049",
+      "label": "Полоса (metalloprokat--polosa)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/metalloprokat--polosa/polosa-iz-nerzhaveiushchei-stali-aisi-304-astm-a484-600x60x6000.webp",
+      "status": "site-current",
+      "packagedSha256": "31236bf9b9681b9d364f829e53cc3919526551e4da613a833dee61e8367beac3",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/polosa-iz-nerzhaveiushchei-stali-aisi-304-astm-a484-600x60x6000/",
+        "image": "https://stroybaza-samara.ru/media/uploads/polosa/polosa-60-nastroyker.ru.webp",
+        "sha256": "31236bf9b9681b9d364f829e53cc3919526551e4da613a833dee61e8367beac3",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1001
+        ],
+        "alphaBounds": [
+          125,
+          276,
+          876,
+          1001
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          125,
+          276,
+          876,
+          1001
+        ],
+        "opaqueBounds": [
+          125,
+          276,
+          876,
+          1001
+        ],
+        "normalizedLayoutBounds": [
+          125.0,
+          275.72,
+          876.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.3738,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/polosa-iz-nerzhaveiushchei-stali-aisi-304-astm-a484-600x60x6000/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-050",
+      "label": "Сетка (metalloprokat--setka)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/metalloprokat--setka/setka-rabitsa-3x50x50.webp",
+      "status": "site-current",
+      "packagedSha256": "7fac4331b54844cdee74662c38d48984576e3cc16214b274827015a63e4451a2",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/setka-rabitsa-3x50x50/",
+        "image": "https://stroybaza-samara.ru/media/uploads/setka/setka-rabica-50-50-nastroyker.ru.webp",
+        "sha256": "7fac4331b54844cdee74662c38d48984576e3cc16214b274827015a63e4451a2",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          144,
+          287,
+          856,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          144,
+          287,
+          856,
+          1000
+        ],
+        "opaqueBounds": [
+          144,
+          287,
+          856,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          144.0,
+          287.0,
+          856.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.103,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/setka-rabitsa-3x50x50/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-051",
+      "label": "Швеллер (metalloprokat--shveller)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/metalloprokat--shveller/shveller-gnutyi-220kh80kh6mm.webp",
+      "status": "site-current",
+      "packagedSha256": "1e75d728d07682f565e7b60cb9e28cda24d9eb662c9c697a390bd77393146d51",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/shveller-gnutyi-220kh80kh6mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/shveller/shveller-80-nastroyker.ru.webp",
+        "sha256": "1e75d728d07682f565e7b60cb9e28cda24d9eb662c9c697a390bd77393146d51",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          154,
+          239,
+          846,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          154,
+          239,
+          846,
+          1000
+        ],
+        "opaqueBounds": [
+          154,
+          239,
+          846,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          154.0,
+          239.0,
+          846.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.344,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/shveller-gnutyi-220kh80kh6mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-052",
+      "label": "Труба профильная (metalloprokat--truba-profilnaya-proftruba)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/metalloprokat--truba-profilnaya-proftruba/profilnaia-truba-15x15x15mm-2m-p.webp",
+      "status": "site-current",
+      "packagedSha256": "19edecdc1d200558adf1f45bcd0b1cbb43ad31a09a3869cff3d59f33e7cab1cf",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/profilnaia-truba-15x15x15mm-2m-p/",
+        "image": "https://stroybaza-samara.ru/media/uploads/prof-truba/truba-profil-15-15-nastroyker.ru.webp",
+        "sha256": "19edecdc1d200558adf1f45bcd0b1cbb43ad31a09a3869cff3d59f33e7cab1cf",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          255,
+          247,
+          745,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          255,
+          247,
+          745,
+          1000
+        ],
+        "opaqueBounds": [
+          255,
+          247,
+          745,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          255.0,
+          247.0,
+          745.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.2845,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/profilnaia-truba-15x15x15mm-2m-p/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-053",
+      "label": "Уголок металлический (metalloprokat--ugolok-metallicheskij)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/metalloprokat--ugolok-metallicheskij/ugolok-metallicheskii-32kh32kh3mm.webp",
+      "status": "site-current",
+      "packagedSha256": "9487272c436ddf079aea54a3b26672b0eb3125945b99c3418ca8c487a88b27be",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/ugolok-metallicheskii-32kh32kh3mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/ugolok/ugolok-metallichaskiy-32-nastroyker.ru.webp",
+        "sha256": "9487272c436ddf079aea54a3b26672b0eb3125945b99c3418ca8c487a88b27be",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          172,
+          233,
+          825,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          172,
+          233,
+          825,
+          1000
+        ],
+        "opaqueBounds": [
+          172,
+          234,
+          825,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          172.0,
+          233.0,
+          825.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.2764,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/ugolok-metallicheskii-32kh32kh3mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-054",
+      "label": "Дюбель для гипсокартона (obshestroitelnyj-krepezh--dyubel-dlya-gipsokartona)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/obshestroitelnyj-krepezh--dyubel-dlya-gipsokartona/sormat-anker-ola-s-shurupom.webp",
+      "status": "visually-current",
+      "packagedSha256": "42cfd0e0ff54dcfa82d3afa543416cb9ae2816f0b438b7d1c940ac4a7e485f7d",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/sormat-anker-ola-s-shurupom/",
+        "image": "https://stroybaza-samara.ru/media/products/images/img_06f857a5395d20bcb7b9fbcde0cbd930_OaXar6v.png_RZ7wCHu.png",
+        "sha256": "3c83df2fecd816663cb6f873fd3fc2cfc8f66735955d3e8cdaadb56b6ed4858b",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          900,
+          675
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          900,
+          675
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          0,
+          0,
+          900,
+          675
+        ],
+        "opaqueBounds": [
+          0,
+          0,
+          900,
+          675
+        ],
+        "normalizedLayoutBounds": [
+          0.0,
+          0.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha": false
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.6247,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/sormat-anker-ola-s-shurupom/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-055",
+      "label": "Дюбель для теплоизоляции (obshestroitelnyj-krepezh--dyubel-dlya-teploizolyacii)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/obshestroitelnyj-krepezh--dyubel-dlya-teploizolyacii/zabivnoi-fasadnyi-diubel-so-stalnym-gvozdem-dlia-teploizoliatsii-rawlplug-9.webp",
+      "status": "visually-current",
+      "packagedSha256": "24436d2baf2e2e5141b5a13029354c204feb84f273985cf1ec70f11875a9e5ad",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/zabivnoi-fasadnyi-diubel-so-stalnym-gvozdem-dlia-teploizoliatsii-rawlplug-9/",
+        "image": "https://stroybaza-samara.ru/media/products/images/tfix-8m_SvmURGt.png.png",
+        "sha256": "59b0455a7a1cd5951ecc381adc0ea329be7408cc0e7de3560e7ea633f2eced79",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          700,
+          700
+        ],
+        "alphaBounds": [
+          48,
+          100,
+          628,
+          596
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          49,
+          100,
+          627,
+          596
+        ],
+        "opaqueBounds": [
+          50,
+          101,
+          626,
+          595
+        ],
+        "normalizedLayoutBounds": [
+          70.0,
+          142.86,
+          895.71,
+          851.43
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.2397,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/zabivnoi-fasadnyi-diubel-so-stalnym-gvozdem-dlia-teploizoliatsii-rawlplug-9/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-056",
+      "label": "Дюбель-гвоздь (obshestroitelnyj-krepezh--dyubel-gvozd)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/obshestroitelnyj-krepezh--dyubel-gvozd/sormat-neilonovyi-diubel-udlinennyi-nat-8-l.webp",
+      "status": "visually-current",
+      "packagedSha256": "5b96b4a667218bb6aadf17938d0cacbe005c062f84c6657bd68e3034fb1b584d",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/sormat-neilonovyi-diubel-udlinennyi-nat-8-l/",
+        "image": "https://stroybaza-samara.ru/media/products/images/img_265b301cd669d4403dfbd395880d5830_8orpljK.png_q5Dlyiy.png",
+        "sha256": "014708b1edb3228b9b980211e54792d0d0c3e4e080bacdbf4314279b8a36ebc0",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          900,
+          229
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          900,
+          229
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          0,
+          0,
+          900,
+          229
+        ],
+        "opaqueBounds": [
+          0,
+          0,
+          900,
+          229
+        ],
+        "normalizedLayoutBounds": [
+          0.0,
+          0.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha": false
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 1.0189,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/sormat-neilonovyi-diubel-udlinennyi-nat-8-l/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-057",
+      "label": "Саморез для сэндвич-панелей (obshestroitelnyj-krepezh--samorez-dlya-sendvich-panelej)",
+      "image": "Сайт/Архив товарных референсов/Подкатегории/obshestroitelnyj-krepezh--samorez-dlya-sendvich-panelej/samorez-dlia-sendvich-panelei-k-stalnym-konstruktsiiam-tolshchinoi-do-12-mm-rawlplug-10.webp",
+      "status": "retired-unavailable",
+      "packagedSha256": "4f94d75d3a2e2eedc519e62e6af4262d96619532e8710a7968216e99309a590a",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/samorez-dlia-sendvich-panelei-k-stalnym-konstruktsiiam-tolshchinoi-do-12-mm-rawlplug-10/",
+        "image": null,
+        "sha256": null,
+        "checkedAt": "2026-11-26",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "geometry": {
+        "nativeSize": [
+          350,
+          350
+        ],
+        "alphaBounds": [
+          23,
+          46,
+          318,
+          299
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          26,
+          48,
+          316,
+          297
+        ],
+        "opaqueBounds": [
+          26,
+          49,
+          316,
+          296
+        ],
+        "normalizedLayoutBounds": [
+          74.29,
+          137.14,
+          902.86,
+          848.57
+        ],
+        "alpha": true
+      },
+      "reason": "Исходная карточка вернула 404 в Самаре и Москве. Снят с активных эталонов; историческая картинка не задаёт текущий формат."
+    },
+    {
+      "id": "catalog-058",
+      "label": "Блок-хаус (pilomaterialy--blok-haus)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--blok-haus/blok-khaus-0022kh009kh6-kategoriia-av.webp",
+      "status": "visually-current",
+      "packagedSha256": "38ca6e0592b6a327b11b5c333c76d071adebebf4b7ae517897e3e98a49160a97",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/blok-khaus-0022kh009kh6-kategoriia-av/",
+        "image": "https://stroybaza-samara.ru/media/products/images/blok-haus-nastroyker.ru.webp",
+        "sha256": "7343a93997313ac7942f65f614f823e255b7e66dd19a92d4daf99bc223f4cabc",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          143,
+          188,
+          872,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          143,
+          188,
+          872,
+          1000
+        ],
+        "opaqueBounds": [
+          143,
+          188,
+          871,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          143.0,
+          188.0,
+          872.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.4167,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/blok-khaus-0022kh009kh6-kategoriia-av/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-059",
+      "label": "Брус (pilomaterialy--brus)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--brus/brus-obreznoi-100x100x6000-1sort-estestvennoi-vlazhnosti.webp",
+      "status": "visually-current",
+      "packagedSha256": "1a614e67370cf8bf77a031c65d6fe5643c480183009613960dea92e5b3d3f8dc",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/brus-obreznoi-100x100x6000-1sort-estestvennoi-vlazhnosti/",
+        "image": "https://stroybaza-samara.ru/media/uploads/brus/brus-obreznoy-100-100-nastroyker.ru.webp",
+        "sha256": "0b9edbd358caf4007069715e1dd312937c5f12df0e99b512d2e648207f0200b7",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          139,
+          268,
+          870,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          139,
+          268,
+          870,
+          1000
+        ],
+        "opaqueBounds": [
+          139,
+          268,
+          870,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          139.0,
+          268.0,
+          870.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.5628,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/brus-obreznoi-100x100x6000-1sort-estestvennoi-vlazhnosti/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-060",
+      "label": "Брусочки разных сечений (pilomaterialy--brusochki-raznyh-sechenij)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--brusochki-raznyh-sechenij/brus-strogannyi-sukhoi-khvoia-0020kh0040kh3-m-1up-20sht.webp",
+      "status": "visually-current",
+      "packagedSha256": "a7deb7316b5dac3e7d053f3b01ab46224bbc114f58a74b624aab418d344f2bdd",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/brus-strogannyi-sukhoi-khvoia-0020kh0040kh3-m-1up-20sht/",
+        "image": "https://stroybaza-samara.ru/media/uploads/brusochki/brusok-20-40-3000-hvoya-nastroyker.ru.webp",
+        "sha256": "c1f8dc219c99f6ae53c0269696d72767cb568ac34f4af964415bfec652000eed",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1001
+        ],
+        "alphaBounds": [
+          128,
+          213,
+          880,
+          1001
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          130,
+          214,
+          878,
+          1001
+        ],
+        "opaqueBounds": [
+          131,
+          215,
+          877,
+          1001
+        ],
+        "normalizedLayoutBounds": [
+          130.0,
+          213.79,
+          878.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.3972,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/brus-strogannyi-sukhoi-khvoia-0020kh0040kh3-m-1up-20sht/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-061",
+      "label": "Доска обрезная (pilomaterialy--doska-obreznaya)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--doska-obreznaya/doska-obreznaia-sort-2-sechenie-0025kh0100kh3m.webp",
+      "status": "visually-current",
+      "packagedSha256": "4cafe7681178257d2aa527405cccb56009b8a037fe827158e4615e0658c4c10f",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/doska-obreznaia-sort-2-sechenie-0025kh0100kh3m/",
+        "image": "https://stroybaza-samara.ru/media/uploads/doska_strog/novie_kartinki/doska-obreznaya-25-100-2sort-nastroyker.ru-1_(convert.io).webp",
+        "sha256": "2a91f707c9d0bfe2fc54194281e0e0a260ff2db9996a61890c8cb2d347337712",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          130,
+          184,
+          869,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          130,
+          184,
+          869,
+          1000
+        ],
+        "opaqueBounds": [
+          130,
+          184,
+          869,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          130.0,
+          184.0,
+          869.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.7199,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/doska-obreznaia-sort-2-sechenie-0025kh0100kh3m/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-062",
+      "label": "Доска пола (pilomaterialy--doska-pola)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--doska-pola/doska-pola-sosna-0028kh0110kh6-m-sort-av-1up-5sht.webp",
+      "status": "visually-current",
+      "packagedSha256": "88810c3d47f1e8919ce1c5d235559231b115e62101771fba6fd0caab30e3afee",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/doska-pola-sosna-0028kh0110kh6-m-sort-av-1up-5sht/",
+        "image": "https://stroybaza-samara.ru/media/uploads/doska_pola/doska-dlya-pola-sosna-nastroyker.ru.webp",
+        "sha256": "30fd228b3c23a138353f5039888ccaa4f173a70325086b99bb6ce56b96e11d16",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1001
+        ],
+        "alphaBounds": [
+          96,
+          298,
+          925,
+          1001
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          96,
+          298,
+          925,
+          1001
+        ],
+        "opaqueBounds": [
+          96,
+          299,
+          925,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          96.0,
+          297.7,
+          925.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.4188,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/doska-pola-sosna-0028kh0110kh6-m-sort-av-1up-5sht/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-063",
+      "label": "Доска строганная (pilomaterialy--doska-strogannaya)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--doska-strogannaya/doska-sukhaia-strogannaia-36kh140kh6000mm-sort-av.webp",
+      "status": "visually-current",
+      "packagedSha256": "aafe500f3dad750a60d52ccaba4ca31b870b53608477826de3d55dc40ebdb2a0",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/doska-sukhaia-strogannaia-36kh140kh6000mm-sort-av/",
+        "image": "https://stroybaza-samara.ru/media/uploads/doska_strog/doska-stroganaya-36-140-nastroyker.ru.png",
+        "sha256": "0928321b153d1a30f86be89ba5bd896591e13856bc5228d1c3f6a2a5ae4331a7",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          117,
+          138,
+          884,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          117,
+          138,
+          884,
+          1000
+        ],
+        "opaqueBounds": [
+          117,
+          138,
+          884,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          117.0,
+          138.0,
+          884.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.8989,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/doska-sukhaia-strogannaia-36kh140kh6000mm-sort-av/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-064",
+      "label": "Элементы лестниц (pilomaterialy--elementy-lestnic)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--elementy-lestnic/lestnichnaia-stupen-sort-av-40kh300kh1000mm.webp",
+      "status": "visually-current",
+      "packagedSha256": "7039628e79919df621ad29f984bcfe262733921a3cb6ebbe2f071bbca5d804fe",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/lestnichnaia-stupen-sort-av-40kh300kh1000mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/elementy_lestnic/stupen-nastroyker.ru_(convert.io).webp",
+        "sha256": "5184d29f7343e1e3302c29a3332e4237253aee80fd4d0392dc8b1caee304e82b",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1001
+        ],
+        "alphaBounds": [
+          48,
+          267,
+          958,
+          1001
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          48,
+          267,
+          955,
+          1001
+        ],
+        "opaqueBounds": [
+          48,
+          267,
+          955,
+          1001
+        ],
+        "normalizedLayoutBounds": [
+          48.0,
+          266.73,
+          955.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.5596,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/lestnichnaia-stupen-sort-av-40kh300kh1000mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-065",
+      "label": "Имитация бруса (pilomaterialy--imitaciya-brusa)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--imitaciya-brusa/imitatsiia-brusa-16kh135kh3000mm-sort-av.webp",
+      "status": "visually-current",
+      "packagedSha256": "9a0a1c040b8d6b0c795de4a605ffd3cf5cd1aabc4f9e313b81a971fb525f1923",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/imitatsiia-brusa-16kh135kh3000mm-sort-av/",
+        "image": "https://stroybaza-samara.ru/media/products/images/imitaciaya-brusa-sortab-nastroyker.ru_dZOM5tD.webp",
+        "sha256": "1da822b68556bd6df564aae4c178772ba401648aa13745d23df8a474f483e88b",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          134,
+          188,
+          865,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          134,
+          188,
+          865,
+          1000
+        ],
+        "opaqueBounds": [
+          134,
+          188,
+          865,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          134.0,
+          188.0,
+          865.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.7917,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/imitatsiia-brusa-16kh135kh3000mm-sort-av/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-066",
+      "label": "Вагонка (pilomaterialy--vagonka)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/pilomaterialy--vagonka/evrovagonka-30m-sosna-sort-s-125kh90mm.webp",
+      "status": "visually-current",
+      "packagedSha256": "ef074f1791ac9ee01a2fce0fdc709734b50e8e28ac2d3019eb095de3de511edf",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/evrovagonka-30m-sosna-sort-s-125kh90mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/vagon/evrovagonka-sortc-nastroyker.ru.webp",
+        "sha256": "1b8ee530ebad2beaafce834c22e16c500cda1498eb9fc73e494031dbeed3d147",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          134,
+          228,
+          871,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          134,
+          228,
+          871,
+          1000
+        ],
+        "opaqueBounds": [
+          134,
+          229,
+          871,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          134.0,
+          228.0,
+          871.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.5875,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/evrovagonka-30m-sosna-sort-s-125kh90mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-067",
+      "label": "Софиты Docke (sofity--sofity-docke-dyoke)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/sofity--sofity-docke-dyoke/sofit-t4-sploshnoi-plombir-standart.webp",
+      "status": "visually-current",
+      "packagedSha256": "28e6c10ea6af9e33c6091a64ddee5feee7e748af4b7686a88ae3a375d9f82641",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/sofit-t4-sploshnoi-plombir-standart/",
+        "image": "https://stroybaza-samara.ru/media/uploads/krovelnye-materialy/lm0011524.png",
+        "sha256": "ffb1b43d3aff07a472d336e51065394947df3e408e59479a5eb5fa4a69bfe3de",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          244,
+          105,
+          794,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          244,
+          105,
+          794,
+          1000
+        ],
+        "opaqueBounds": [
+          245,
+          106,
+          793,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          244.0,
+          105.0,
+          794.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.4073,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/sofit-t4-sploshnoi-plombir-standart/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-068",
+      "label": "Софиты Grand Line (sofity--sofity-grand-line)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/sofity--sofity-grand-line/sofit-metallicheskii-klassik-grand-lain-perforirovannyi-04-mm-shokolad.webp",
+      "status": "visually-current",
+      "packagedSha256": "b22f4bdb7467b89b57fe61c1a73b3b1e9409d3d3eab43635bcddd03d7ce714e8",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/sofit-metallicheskii-klassik-grand-lain-perforirovannyi-04-mm-shokolad/",
+        "image": "https://stroybaza-samara.ru/media/uploads/krovelnye-materialy/sofity/s-0001.webp",
+        "sha256": "b174ad94894f57e1ccfee530327de0853a53939e0e6a38add3536822ed5bec8e",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          810,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          242,
+          92,
+          792,
+          1000
+        ],
+        "opaqueBounds": [
+          245,
+          94,
+          790,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          242.0,
+          92.0,
+          792.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.3551,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/sofit-metallicheskii-klassik-grand-lain-perforirovannyi-04-mm-shokolad/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-069",
+      "label": "Софиты Металл Профиль (sofity--sofity-metall-profil)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/sofity--sofity-metall-profil/sofit-lbrus-cloudy-0-5-mm.webp",
+      "status": "visually-current",
+      "packagedSha256": "b92e8fdd1aad72054987e52eedfa35bd4dc85603c080d50288eff3851ea1374b",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/sofit-lbrus-cloudy-0-5-mm/",
+        "image": "https://stroybaza-samara.ru/media/products/images/sofit-lbrus-cloudy-050_VgEybZT-compressed-b94ef23b4dd0.webp",
+        "sha256": "b94ef23b4dd04fd2b0a0dc7808ebb07be5f7138881af95e42e8bb6052c3a4459",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "alphaBounds": [
+          292,
+          144,
+          961,
+          1254
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          292,
+          144,
+          961,
+          1254
+        ],
+        "opaqueBounds": [
+          293,
+          145,
+          959,
+          1254
+        ],
+        "normalizedLayoutBounds": [
+          232.85,
+          114.83,
+          766.35,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.5539,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/sofit-lbrus-cloudy-0-5-mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-070",
+      "label": "Блок строительный (stenovye-materialy--blok-stroitelnyj)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/stenovye-materialy--blok-stroitelnyj/gazobeton-blok-stenovoi-d500-625x250x200.webp",
+      "status": "visually-current",
+      "packagedSha256": "03f9dcd13cf94d95c047f50714229a54df28c2fd151cdc3887b2fae0c7c27e87",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/gazobeton-blok-stenovoi-d500-625x250x200/",
+        "image": "https://stroybaza-samara.ru/media/uploads/stenovye/sb00007165.webp",
+        "sha256": "8e5deea8158a104e931972bf9acb012bb82d95467a018f01f22e49d768734d89",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          904,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          103,
+          219,
+          897,
+          1000
+        ],
+        "opaqueBounds": [
+          104,
+          220,
+          895,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          103.0,
+          219.0,
+          897.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.4748,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/gazobeton-blok-stenovoi-d500-625x250x200/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-071",
+      "label": "Кирпич (stenovye-materialy--kirpich)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/stenovye-materialy--kirpich/kirpich-polnotelyi-krasnyi-1nf-r60-250kh120kh65-mm.webp",
+      "status": "visually-current",
+      "packagedSha256": "3e51f57331f191661da97695c2228459cbe2bea0e09f2d6e7e5d547fc7ee11e9",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/kirpich-polnotelyi-krasnyi-1nf-r60-250kh120kh65-mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/stenovye/8563.webp",
+        "sha256": "25d84637a09af60fed58f99ddd8f9fd3d0fa1b87ce26c4f4af3df96b88dad561",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          120,
+          204,
+          863,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          121,
+          204,
+          863,
+          1000
+        ],
+        "opaqueBounds": [
+          122,
+          206,
+          861,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          121.0,
+          204.0,
+          863.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.7739,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/kirpich-polnotelyi-krasnyi-1nf-r60-250kh120kh65-mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-072",
+      "label": "Пенополистирол XPS (teploizolyaciya--ekstrudirovannyj-penopolistirol-xps)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/teploizolyaciya--ekstrudirovannyj-penopolistirol-xps/ekstruzionnyi-penopolistirol-xps-tekhnopleks-1180-580-50-l-6-pl-upak-020532-32.webp",
+      "status": "site-current",
+      "packagedSha256": "7ddae6c04a45deab2217158b381d5b3ed708818bc923171fd31c5b816834c31b",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/ekstruzionnyi-penopolistirol-xps-tekhnopleks-1180-580-50-l-6-pl-upak-020532-32/",
+        "image": "https://stroybaza-samara.ru/media/uploads/ekstrudirovannyj-penopolistirol/ekstruzionnyi-penopolistirol-xps-tekhnopleks.webp",
+        "sha256": "7ddae6c04a45deab2217158b381d5b3ed708818bc923171fd31c5b816834c31b",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          12,
+          187,
+          984,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          209,
+          209,
+          802,
+          1000
+        ],
+        "opaqueBounds": [
+          211,
+          211,
+          801,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          209.0,
+          209.0,
+          802.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 41.5984,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/ekstruzionnyi-penopolistirol-xps-tekhnopleks-1180-580-50-l-6-pl-upak-020532-32/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-073",
+      "label": "Пенопласт (teploizolyaciya--penoplast)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/teploizolyaciya--penoplast/penoplast-pps-8-r-a-1000kh1000kh20mm.webp",
+      "status": "site-current",
+      "packagedSha256": "ed1bfc9403c9fdcb2896e5030f50113bf30cf03a2f844069608a4c2f51c31af7",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/penoplast-pps-8-r-a-1000kh1000kh20mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/penoplast/penoplast-20.webp",
+        "sha256": "ed1bfc9403c9fdcb2896e5030f50113bf30cf03a2f844069608a4c2f51c31af7",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          21,
+          20,
+          963,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          144,
+          214,
+          857,
+          1000
+        ],
+        "opaqueBounds": [
+          146,
+          215,
+          856,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          144.0,
+          214.0,
+          857.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 8.8418,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/penoplast-pps-8-r-a-1000kh1000kh20mm/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-074",
+      "label": "Подкровельные пленки (teploizolyaciya--podkrovelnye-plenki)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/teploizolyaciya--podkrovelnye-plenki/izospan-sl-15mm-45-m-p-butil-kauchukovaia-soedinitelnaia-lenta.webp",
+      "status": "visually-current",
+      "packagedSha256": "a81598304b27470af3acceae71b9bd0a8f8d6a08a9444a64beac41402d150f88",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/izospan-sl-15mm-45-m-p-butil-kauchukovaia-soedinitelnaia-lenta/",
+        "image": "https://stroybaza-samara.ru/media/products/images/izospan-sl-nastroyker.ru.png",
+        "sha256": "0078e67fb675fc20377c7b3de5e84043c0ca3b40b4f7e088b95263de0f82cee5",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          189,
+          231,
+          903,
+          851
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          194,
+          240,
+          897,
+          838
+        ],
+        "opaqueBounds": [
+          198,
+          243,
+          889,
+          835
+        ],
+        "normalizedLayoutBounds": [
+          194.0,
+          240.0,
+          897.0,
+          838.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 0.3845,
+        "compositionChangedSincePreviousPackage": false,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/izospan-sl-15mm-45-m-p-butil-kauchukovaia-soedinitelnaia-lenta/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-075",
+      "label": "Утеплитель (teploizolyaciya--uteplitel)",
+      "image": "Сайт/Референсы/Изображения товаров/Подкатегории/teploizolyaciya--uteplitel/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini-ts-037-aquastatik-0305m3-610kh1000kh50mm-10-sht-61m2.webp",
+      "status": "site-current",
+      "packagedSha256": "d959aea727b1e4e5156fe21ac3275d942afe620133abf7c70b9b9954c1d363bd",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini-ts-037-aquastatik-0305m3-610kh1000kh50mm-10-sht-61m2/",
+        "image": "https://stroybaza-samara.ru/media/uploads/uteplitel/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini.webp",
+        "sha256": "d959aea727b1e4e5156fe21ac3275d942afe620133abf7c70b9b9954c1d363bd",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          224,
+          210,
+          778,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          224,
+          210,
+          778,
+          1000
+        ],
+        "opaqueBounds": [
+          225,
+          212,
+          776,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          224.0,
+          210.0,
+          778.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "comparison": {
+        "meanAbsoluteRgbErrorAt300px": 49.2492,
+        "compositionChangedSincePreviousPackage": true,
+        "visualReview": "old/new contact sheets reviewed"
+      },
+      "regionalCheck": {
+        "card": "https://stroybaza-moscow.ru/catalog/product/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini-ts-037-aquastatik-0305m3-610kh1000kh50mm-10-sht-61m2/",
+        "status": "same-image",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-076",
+      "label": "kirpich-oblicovochnyj-ivory-14nf-kkmarket",
+      "image": "Сайт/Архив товарных референсов/stenovye-materialy/kirpich-oblicovochnyj-ivory-14nf-kkmarket.webp",
+      "status": "unverified-source",
+      "packagedSha256": "6399f3d30ea12b1d5777eb9bee1e60e6be67e6262b067482c751578fba00933d",
+      "geometry": {
+        "nativeSize": [
+          717,
+          1400
+        ],
+        "alphaBounds": [
+          61,
+          39,
+          666,
+          1360
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          63,
+          41,
+          664,
+          1358
+        ],
+        "opaqueBounds": [
+          64,
+          42,
+          663,
+          1357
+        ],
+        "normalizedLayoutBounds": [
+          87.87,
+          29.29,
+          926.08,
+          970.0
+        ],
+        "alpha": true
+      },
+      "reason": "Изображение не имело ссылки на карточку в прежнем каталоге; соответствующий SKU не установлен в текущей выборке кирпича. Не использовать как утверждённый актуальный формат."
+    },
+    {
+      "id": "catalog-077",
+      "label": "kirpich-oblicovochnyj-persik-14nf-kkmarket",
+      "image": "Сайт/Архив товарных референсов/stenovye-materialy/kirpich-oblicovochnyj-persik-14nf-kkmarket.webp",
+      "status": "unverified-source",
+      "packagedSha256": "5e5d6225adc7671b18aee04af78ef04436fa4f9c47328e979b85c20994176247",
+      "geometry": {
+        "nativeSize": [
+          748,
+          1400
+        ],
+        "alphaBounds": [
+          59,
+          17,
+          685,
+          1382
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          61,
+          18,
+          683,
+          1380
+        ],
+        "opaqueBounds": [
+          62,
+          20,
+          681,
+          1379
+        ],
+        "normalizedLayoutBounds": [
+          81.55,
+          12.86,
+          913.1,
+          985.71
+        ],
+        "alpha": true
+      },
+      "reason": "Изображение не имело ссылки на карточку в прежнем каталоге; соответствующий SKU не установлен в текущей выборке кирпича. Не использовать как утверждённый актуальный формат."
+    },
+    {
+      "id": "catalog-078",
+      "label": "kirpich-oblicovochnyj-shokolad-14nf-kkmarket",
+      "image": "Сайт/Архив товарных референсов/stenovye-materialy/kirpich-oblicovochnyj-shokolad-14nf-kkmarket.webp",
+      "status": "unverified-source",
+      "packagedSha256": "8521e41a5d7b384f90e76a549b24405f1487607707f06b1fc139290bb34a5af0",
+      "geometry": {
+        "nativeSize": [
+          682,
+          1400
+        ],
+        "alphaBounds": [
+          27,
+          17,
+          650,
+          1380
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          29,
+          19,
+          648,
+          1377
+        ],
+        "opaqueBounds": [
+          29,
+          20,
+          647,
+          1377
+        ],
+        "normalizedLayoutBounds": [
+          42.52,
+          13.57,
+          950.15,
+          983.57
+        ],
+        "alpha": true
+      },
+      "reason": "Изображение не имело ссылки на карточку в прежнем каталоге; соответствующий SKU не установлен в текущей выборке кирпича. Не использовать как утверждённый актуальный формат."
+    },
+    {
+      "id": "catalog-079",
+      "label": "ОСБ (OSB-3) ECO - ОСП-плита Калевала 2500х1250х12 мм",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/listovye-materialy/osb-three-kalevala-1250-12-mm.webp",
+      "status": "site-current",
+      "packagedSha256": "78a12dcba62973f57e2b1a274532faafcf7eb8ad7db3d1663f9082c4c3a8e3fb",
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          118,
+          208,
+          882,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          118,
+          208,
+          882,
+          1000
+        ],
+        "opaqueBounds": [
+          118,
+          208,
+          882,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          118.0,
+          208.0,
+          882.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/osb-eco-osp-plita-kalevala-2500kh1250kh12-mm/",
+        "image": "https://stroybaza-samara.ru/media/products/images/osb-three-kalevala-1250-12-mm.webp",
+        "sha256": "78a12dcba62973f57e2b1a274532faafcf7eb8ad7db3d1663f9082c4c3a8e3fb",
+        "checkedAt": "2026-11-26",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-080",
+      "label": "Утеплитель Кнауф Тисма S38MR  0,624м3  (1300х600х100мм 8шт)  6,24м2",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/teploizolyaciya/uteplitel-tisma-s38mr-upright-3-4.webp",
+      "status": "site-current",
+      "packagedSha256": "1d7ba3b29acfd3fb941e35a42db16ca1a9d37436fcf1e6b6a773bf0810f4223b",
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          72,
+          161,
+          994,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          236,
+          213,
+          769,
+          1000
+        ],
+        "opaqueBounds": [
+          237,
+          214,
+          768,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          236.0,
+          213.0,
+          769.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/uteplitel-knauf-tisma-s38mr-0624m3-1300kh600kh100mm-8sht-624m2/",
+        "image": "https://stroybaza-samara.ru/media/uploads/uteplitel/uteplitel-knauf-tisma.webp",
+        "sha256": "1d7ba3b29acfd3fb941e35a42db16ca1a9d37436fcf1e6b6a773bf0810f4223b",
+        "checkedAt": "2026-11-26",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-081",
+      "label": "Утеплитель Кнауф Тепло KNAUF Кровля Стена Пол МИНИ TS 037 Aquastatik 0,305м3 (610х1000х50мм 10 шт) 6,1м2",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/teploizolyaciya/uteplitel-upright-3-4.webp",
+      "status": "site-current",
+      "packagedSha256": "d959aea727b1e4e5156fe21ac3275d942afe620133abf7c70b9b9954c1d363bd",
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          224,
+          210,
+          778,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          224,
+          210,
+          778,
+          1000
+        ],
+        "opaqueBounds": [
+          225,
+          212,
+          776,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          224.0,
+          210.0,
+          778.0,
+          1000.0
+        ],
+        "alpha": true
+      },
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini-ts-037-aquastatik-0305m3-610kh1000kh50mm-10-sht-61m2/",
+        "image": "https://stroybaza-samara.ru/media/uploads/uteplitel/uteplitel-knauf-teplo-knauf-krovlia-stena-pol-mini.webp",
+        "sha256": "d959aea727b1e4e5156fe21ac3275d942afe620133abf7c70b9b9954c1d363bd",
+        "checkedAt": "2026-11-26",
+        "error": null
+      }
+    },
+    {
+      "id": "catalog-082",
+      "label": "Базальтовый Утеплитель ТЕХНОНИКОЛЬ Техноблок Стандарт 1200х600х100 мм, 4 шт",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/teploizolyaciya/technoblock.webp",
+      "status": "site-current",
+      "packagedSha256": "275dd4241eb54d06d298d81816e0a9b20c327f6c748a1f2574848596926e05cd",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/bazaltovyi-uteplitel-tekhnonikol-tekhnoblok-standart-1200kh600kh100-mm-4-sht/",
+        "image": "https://stroybaza-samara.ru/media/uploads/uteplitel/bazaltovyi-uteplitel-tekhnonikol-tekhnoblok-standart.webp",
+        "sha256": "275dd4241eb54d06d298d81816e0a9b20c327f6c748a1f2574848596926e05cd",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          71,
+          49,
+          949,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          203,
+          213,
+          801,
+          1000
+        ],
+        "opaqueBounds": [
+          204,
+          214,
+          800,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          203.0,
+          213.0,
+          801.0,
+          1000.0
+        ],
+        "alpha": true
+      }
+    },
+    {
+      "id": "catalog-083",
+      "label": "Базальтовый утеплитель ROCKWOOL АКУСТИК БАТТС 1000х600 50 мм",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/teploizolyaciya/rockwool.webp",
+      "status": "site-current",
+      "packagedSha256": "ede57f6be0b6a95f0a9146005fd54ec07e97b243dbceb8b1a033fd3ebc6673f6",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/bazaltovyi-uteplitel-rockwool-akustik-batts-1000kh600-50-mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/uteplitel/bazaltovyi-uteplitel-rockwool-rokvul-akustik-ultratonkii.webp",
+        "sha256": "ede57f6be0b6a95f0a9146005fd54ec07e97b243dbceb8b1a033fd3ebc6673f6",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          31,
+          95,
+          978,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          214,
+          210,
+          788,
+          1000
+        ],
+        "opaqueBounds": [
+          216,
+          211,
+          786,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          214.0,
+          210.0,
+          788.0,
+          1000.0
+        ],
+        "alpha": true
+      }
+    },
+    {
+      "id": "catalog-084",
+      "label": "Утеплитель Кнауф Тепло KNAUF для КРОВЛИ TR 037 Aquastatik 1м3 (рулон 5500х1220х150мм 1 шт) 6,7м2",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/teploizolyaciya/knauf-roll.webp",
+      "status": "site-current",
+      "packagedSha256": "7576a0b58da5a350af70ac0ba4b3e9eabda1f087c7db166bacfe97905e6be36f",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/uteplitel-knauf-teplo-knauf-dlia-krovli-tr-037-aquastatik-1m3-rulon-5500kh1220kh150mm-1-sht-67m2/",
+        "image": "https://stroybaza-samara.ru/media/uploads/uteplitel/uteplitel-knauf-teplo-knauf-dlia-krovli.webp",
+        "sha256": "7576a0b58da5a350af70ac0ba4b3e9eabda1f087c7db166bacfe97905e6be36f",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          106,
+          211,
+          875,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          330,
+          215,
+          670,
+          1000
+        ],
+        "opaqueBounds": [
+          331,
+          216,
+          669,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          330.0,
+          215.0,
+          670.0,
+          1000.0
+        ],
+        "alpha": true
+      }
+    },
+    {
+      "id": "catalog-085",
+      "label": "Профиль направляющий ПН 3000х50х40 мм.",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/gkl/gkl-pn.webp",
+      "status": "product-source-only",
+      "packagedSha256": "6ad8f4a13a80df093bf07b554b7d61e9c102bc371e7fe87db7bd29f54c8fbd05",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/profil-napravliaiushchii-pn-3000kh50kh40-mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/listovye-materialy/profile-1000990.webp",
+        "sha256": "6ad8f4a13a80df093bf07b554b7d61e9c102bc371e7fe87db7bd29f54c8fbd05",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "opaqueBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          0.0,
+          0.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha": false
+      }
+    },
+    {
+      "id": "catalog-086",
+      "label": "Подвес прямой ПП 60х27 мм.",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/gkl/gkl-hanger.webp",
+      "status": "product-source-only",
+      "packagedSha256": "6250a4c60c83c549f38217672a41f2e8895a0a4c9ef11906b71d8a5c64fadcac",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/podves-priamoi-pp-60kh27-mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/listovye-materialy/profile-1000983.webp",
+        "sha256": "6250a4c60c83c549f38217672a41f2e8895a0a4c9ef11906b71d8a5c64fadcac",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "opaqueBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          0.0,
+          0.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha": false
+      }
+    },
+    {
+      "id": "catalog-087",
+      "label": "Соединитель профилей одноуровневый Краб 60х27мм 0,9 мм",
+      "image": "Сайт/Референсы/Изображения товаров/Шаблоны компоновки/gkl/gkl-connector.webp",
+      "status": "product-source-only",
+      "packagedSha256": "2c305f08b1d5e41618a6c00867dfeb91e7db7006ee0644e764a3c926054ea132",
+      "source": {
+        "card": "https://stroybaza-samara.ru/catalog/product/soedinitel-profilei-odnourovnevyi-krab-60kh27mm-09-mm/",
+        "image": "https://stroybaza-samara.ru/media/uploads/listovye-materialy/profile-1000957.webp",
+        "sha256": "2c305f08b1d5e41618a6c00867dfeb91e7db7006ee0644e764a3c926054ea132",
+        "checkedAt": "2026-11-26",
+        "error": null
+      },
+      "geometry": {
+        "nativeSize": [
+          1000,
+          1000
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "layoutAlphaThreshold": 8,
+        "layoutBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "opaqueBounds": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "normalizedLayoutBounds": [
+          0.0,
+          0.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha": false
+      }
+    }
+  ]
+}
